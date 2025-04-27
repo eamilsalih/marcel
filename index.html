@@ -226,6 +226,20 @@
       display: block;
       }
       }
+      html, body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure images/videos don't overflow */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Safe sizing */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
     </style>
   </head>
   <body>
