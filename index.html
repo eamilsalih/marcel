@@ -105,39 +105,42 @@
       background-color: #56427a;
       }
       .custom-switch {
-      position: relative;
-      display: inline-block;
-      width: 50px;
-      height: 24px;
-      }
-      .custom-switch-track {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #333;
-      transition: .4s;
-      border-radius: 34px;
-      }
-      .custom-switch-thumb {
-      position: absolute;
-      content: "";
-      height: 16px;
-      width: 16px;
-      left: 4px;
-      bottom: 4px;
-      background-color: white;
-      transition: .4s;
-      border-radius: 50%;
-      }
-      .custom-switch.active .custom-switch-track {
-      background-color: #56427a;
-      }
-      .custom-switch.active .custom-switch-thumb {
-      transform: translateX(26px);
-      }
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.custom-switch-track {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.custom-switch-thumb {
+  position: absolute;
+  height: 18px;  /* smaller thumb */
+  width: 18px;
+  left: 3px;     /* slight inset */
+  top: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.custom-switch.active .custom-switch-track {
+  background-color: #56427a;
+}
+
+.custom-switch.active .custom-switch-thumb {
+  transform: translateX(13px); /* ✅ adjusted */
+}
       .testimonial-carousel {
       overflow: hidden;
       position: relative;
@@ -161,24 +164,28 @@
       .carousel-dot.active {
       background-color: #fff;
       }
-      .calendar-day {
-      width: 14.28%;
+    .calendar-day {
+      width: 50%;
       aspect-ratio: 1;
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
       transition: all 0.3s;
-      }
+      padding: 10px; /* ⬅️ Add padding inside each day */
+      margin: 5px; /* ⬅️ Optional: Add margin between days */
+      border: 1px solid #666; /* ⬅️ Make the border a bit thicker and more visible */
+      border-radius: 15px; /* ⬅️ Optional: Rounded corners for nicer design */
+    }
       .calendar-day:hover:not(.inactive) {
-      background-color: rgba(255, 107, 53, 0.2);
+      background-color: rgba(50, 248, 0, 0.2);
       }
       .calendar-day.selected {
       background-color: #56427a;
       color: white;
       }
       .calendar-day.inactive {
-      color: #555;
+      color: #ff0000;
       cursor: default;
       }
       .time-slot {
@@ -194,7 +201,7 @@
       }
       .time-slot.booked {
       background-color: #464646;
-      color: #979797;
+      color: #333333;
       cursor: default;
       }
       @media (max-width: 768px) {
@@ -330,7 +337,7 @@
         </button>
       </nav>
     </div>
-   <!-- Hero Section -->
+    <!-- Hero Section -->
 <section
 id="home"
 class="hero-section relative min-h-screen pt-20 flex items-center"
@@ -373,7 +380,6 @@ class="hero-section relative min-h-screen pt-20 flex items-center"
   }
 }
 </style>
-<!----------------------------------------------------------------------------------->
     <!-- Subscription Bundles -->
     <section id="services" class="py-20 bg-black">
       <div class="container mx-auto px-4">
