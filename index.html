@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Elite Fitness Training | Personal Trainer</title>
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
-            colors: { primary: "#FF6B35", secondary: "#2EC4B6" },
+            colors: { primary: "#56427a", secondary: "#2EC4B6" },
             borderRadius: {
               none: "0px",
               sm: "4px",
@@ -67,8 +68,8 @@
       transition: all 0.3s;
       }
       .custom-checkbox.checked {
-      background-color: #FF6B35;
-      border-color: #FF6B35;
+      background-color: #56427a;
+      border-color: #56427a;
       }
       .custom-checkbox.checked::after {
       content: '';
@@ -91,7 +92,7 @@
       transition: all 0.3s;
       }
       .custom-radio.checked {
-      border-color: #FF6B35;
+      border-color: #56427a;
       }
       .custom-radio.checked::after {
       content: '';
@@ -101,7 +102,7 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background-color: #FF6B35;
+      background-color: #56427a;
       }
       .custom-switch {
       position: relative;
@@ -132,7 +133,7 @@
       border-radius: 50%;
       }
       .custom-switch.active .custom-switch-track {
-      background-color: #FF6B35;
+      background-color: #56427a;
       }
       .custom-switch.active .custom-switch-thumb {
       transform: translateX(26px);
@@ -173,7 +174,7 @@
       background-color: rgba(255, 107, 53, 0.2);
       }
       .calendar-day.selected {
-      background-color: #FF6B35;
+      background-color: #56427a;
       color: white;
       }
       .calendar-day.inactive {
@@ -188,12 +189,12 @@
       background-color: rgba(255, 107, 53, 0.2);
       }
       .time-slot.selected {
-      background-color: #FF6B35;
+      background-color: #56427a;
       color: white;
       }
       .time-slot.booked {
-      background-color: #333;
-      color: #555;
+      background-color: #464646;
+      color: #979797;
       cursor: default;
       }
       @media (max-width: 768px) {
@@ -235,7 +236,7 @@
       <div
         class="container mx-auto px-4 py-4 flex justify-between items-center"
       >
-        <a href="#" class="text-2xl font-['Pacifico'] text-white">logo</a>
+        <a href="#" class="text-2xl font-['Pacifico'] text-white">Papp Miklos Online Coaching</a>
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8 ml-auto">
           <nav class="flex items-center space-x-8">
@@ -319,7 +320,7 @@
     <section
       id="home"
       class="relative min-h-screen pt-20 flex items-center"
-      style="background-image: url('https://readdy.ai/api/search-image?query=A%20dramatic%20fitness%20scene%20with%20a%20muscular%20personal%20trainer%20in%20a%20modern%20gym%20with%20sleek%20black%20equipment.%20The%20lighting%20is%20dramatic%20with%20spotlights%20creating%20high%20contrast.%20The%20left%20side%20of%20the%20image%20has%20a%20dark%20gradient%20that%20transitions%20smoothly%20to%20show%20the%20gym%20equipment%20and%20trainer%20on%20the%20right.%20Professional%20photography%20with%20shallow%20depth%20of%20field.&width=1920&height=1080&seq=hero1&orientation=landscape'); background-size: cover; background-position: center right;"
+      style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     >
       <div
         class="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-transparent"
@@ -580,12 +581,10 @@
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold mb-4">
-            Track Your Progress
+            Last Month's Client Highlight
           </h2>
           <p class="text-gray-400 max-w-2xl mx-auto">
-            Monitor your fitness journey with our advanced tracking tools. See
-            your improvements in real-time and stay motivated to reach your
-            goals.
+            Me and Michael started working together around the start of March and within a couple of days, I realized how serious and motivated is to change his body. So I put together a completely special and unique, or "hand-made" plan for him. Results speak for themselves. (Good job Michael:D)
           </p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -608,7 +607,7 @@
                   <div>
                     <div class="flex justify-between text-sm mb-1">
                       <span>Weight</span>
-                      <span class="text-primary">-8.5 kg</span>
+                      <span class="text-primary">-10,43 kg</span>
                     </div>
                     <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
                       <div
@@ -620,7 +619,7 @@
                   <div>
                     <div class="flex justify-between text-sm mb-1">
                       <span>Body Fat %</span>
-                      <span class="text-primary">-4.2%</span>
+                      <span class="text-primary">-4.0%</span>
                     </div>
                     <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
                       <div
@@ -632,7 +631,7 @@
                   <div>
                     <div class="flex justify-between text-sm mb-1">
                       <span>Muscle Mass</span>
-                      <span class="text-primary">+3.1 kg</span>
+                      <span class="text-primary">+5.1 kg</span>
                     </div>
                     <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
                       <div
@@ -662,33 +661,31 @@
               <div class="flex-1">
                 <p class="text-center mb-2 text-gray-400">Before</p>
                 <div
-                  class="aspect-[3/4] rounded-lg overflow-hidden bg-gray-800 mb-4"
-                  style="background-image: url('https://readdy.ai/api/search-image?query=A%20photo%20of%20a%20person%20with%20an%20out-of-shape%20physique%2C%20standing%20in%20neutral%20lighting%20against%20a%20plain%20background.%20The%20person%20is%20wearing%20simple%20workout%20clothes%20and%20has%20a%20neutral%20expression.%20The%20image%20should%20be%20tasteful%20and%20respectful%2C%20focusing%20on%20the%20persons%20overall%20physique%20without%20being%20unflattering%20or%20exaggerated.&width=400&height=533&seq=before1&orientation=portrait'); background-size: cover; background-position: center;"
+                  class="aspect-[4/5] rounded-lg overflow-hidden bg-gray-800 mb-4"
+                  style="background-image: url('https://cdn.muscleandstrength.com/sites/default/files/field/before-image/transformation/noah-ellis-before.jpg")
                 ></div>
                 <div class="text-sm text-gray-400">
-                  <p><span class="text-white">Weight:</span> 92 kg</p>
-                  <p><span class="text-white">Body Fat:</span> 28%</p>
-                  <p><span class="text-white">Date:</span> January 10, 2025</p>
+                  <p><span class="text-white">Weight:</span> 88,45 kg</p>
+                  <p><span class="text-white">Body Fat:</span> 15%</p>
+                  <p><span class="text-white">Date:</span> March 11, 2023</p>
                 </div>
               </div>
               <div class="flex-1">
                 <p class="text-center mb-2 text-gray-400">After</p>
                 <div
-                  class="aspect-[3/4] rounded-lg overflow-hidden bg-gray-800 mb-4"
-                  style="background-image: url('https://readdy.ai/api/search-image?query=A%20photo%20of%20a%20fit%20and%20toned%20person%20with%20visible%20muscle%20definition%2C%20standing%20in%20the%20same%20pose%20and%20background%20as%20the%20before%20image.%20The%20person%20is%20wearing%20similar%20workout%20clothes%20and%20has%20a%20confident%20expression.%20The%20image%20shows%20clear%20physical%20improvement%20with%20defined%20muscles%20and%20reduced%20body%20fat%2C%20while%20maintaining%20a%20natural%20and%20achievable%20look.&width=400&height=533&seq=after1&orientation=portrait'); background-size: cover; background-position: center;"
+                  class="aspect-[4/5] rounded-lg overflow-hidden bg-gray-800 mb-4"
+                  style="background-image: url('https://cdn.muscleandstrength.com/sites/default/files/field/after-image/transformation/noah-ellis-after.jpg")
                 ></div>
                 <div class="text-sm text-gray-400">
-                  <p><span class="text-white">Weight:</span> 83.5 kg</p>
-                  <p><span class="text-white">Body Fat:</span> 15%</p>
-                  <p><span class="text-white">Date:</span> April 24, 2025</p>
+                  <p><span class="text-white">Weight:</span> 78,02 kg</p>
+                  <p><span class="text-white">Body Fat:</span> 11%</p>
+                  <p><span class="text-white">Date:</span> May 20, 2023</p>
                 </div>
               </div>
             </div>
             <div class="mt-6">
               <p class="text-gray-300 mb-4">
-                "I've been training with this program for just over 3 months.
-                The personalized approach and consistent tracking have made all
-                the difference in my fitness journey."
+                "I had a party lifestyle. I was always out with friends drinking, not getting enough sleep and constantly slacking on my diet! I would go to the gym, but it wasn’t for any real purpose other than to mess around.I’ve always been in and out of the gym. I’ll get “big” and slack then loose all of my gains, only to repeat this cycle. This off-season I went from 185lbs to 215lbs at 15% bodyfat. I told myself I would go the whole 100 yards this time, so I started my cutting phase as soon as I hit 215lbs. I’m now down to 173 at 10% bodyfat."
               </p>
               <p class="font-semibold">
                 — Michael Richardson, Premium Plan Member
@@ -909,7 +906,10 @@
     <section id="booking" class="py-20 bg-gradient-to-b from-gray-900 to-black">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">Book Your Session</h2>
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">BOOK YOUR SPOT NOW!!!!</h2>
+          <a href="https://calendly.com/freerun-chip/30min">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">https://calendly.com/freerun-chip/30min</h2>
+          </a>
           <p class="text-gray-400 max-w-2xl mx-auto">
             Schedule your training session at a time that works for you. Choose
             your preferred date and time slot, and I'll confirm your booking
@@ -1130,12 +1130,14 @@
                   occasional promotions. You can unsubscribe at any time.</label
                 >
               </div>
+            <a href="https://www.colorhexa.com/000080">
               <button
                 type="submit"
                 class="w-full bg-primary text-white py-3 !rounded-button font-medium hover:bg-opacity-90 transition-all text-lg whitespace-nowrap"
               >
                 Confirm Booking
               </button>
+            </a>
             </form>
           </div>
         </div>
