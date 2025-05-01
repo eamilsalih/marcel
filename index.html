@@ -10,7 +10,7 @@
       tailwind.config = {
         theme: {
           extend: {
-            colors: { primary: "#56427a", secondary: "#2EC4B6" },
+            colors: { primary: "#ff0000", secondary: "#2EC4B6" },
             borderRadius: {
               none: "0px",
               sm: "4px",
@@ -68,8 +68,8 @@
       transition: all 0.3s;
       }
       .custom-checkbox.checked {
-      background-color: #56427a;
-      border-color: #56427a;
+      background-color: #ff0000;
+      border-color: #ff0000;
       }
       .custom-checkbox.checked::after {
       content: '';
@@ -92,7 +92,7 @@
       transition: all 0.3s;
       }
       .custom-radio.checked {
-      border-color: #56427a;
+      border-color: #ff0000;
       }
       .custom-radio.checked::after {
       content: '';
@@ -102,7 +102,7 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background-color: #56427a;
+      background-color: #ff0000;
       }
       .custom-switch {
   position: relative;
@@ -135,7 +135,7 @@
 }
 
 .custom-switch.active .custom-switch-track {
-  background-color: #56427a;
+  background-color: #ff0000;
 }
 
 .custom-switch.active .custom-switch-thumb {
@@ -181,7 +181,7 @@
       background-color: rgba(50, 248, 0, 0.2);
       }
       .calendar-day.selected {
-      background-color: #56427a;
+      background-color: #ff0000;
       color: white;
       }
       .calendar-day.inactive {
@@ -196,7 +196,7 @@
       background-color: rgba(255, 107, 53, 0.2);
       }
       .time-slot.selected {
-      background-color: #56427a;
+      background-color: #ff0000;
       color: white;
       }
       .time-slot.booked {
@@ -257,7 +257,7 @@
       <div
         class="container mx-auto px-4 py-4 flex justify-between items-center"
       >
-        <a href="#" class="text-2xl font-['Pacifico'] text-white">Papp Miklos Online Coaching</a>
+        <a href="#" class="text-2xl font-['Pacifico'] text-white">Test Name Online Coaching</a>
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8 ml-auto">
           <nav class="flex items-center space-x-8">
@@ -934,239 +934,15 @@ class="hero-section relative min-h-screen pt-20 flex items-center"
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold mb-4">BOOK YOUR SPOT NOW!!!!</h2>
-          <a href="https://calendly.com/freerun-chip/30min">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4"><u>LINK</u></h2>
-          </a>
+                      <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/freerun-chip/30min?background_color=000000&text_color=ffffff&primary_color=ff0000" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
           <p class="text-gray-400 max-w-2xl mx-auto">
             Schedule your training session at a time that works for you. Choose
             your preferred date and time slot, and I'll confirm your booking
             within 24 hours.
           </p>
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <!-- Calendar & Time Selection -->
-          <div>
-            <div class="bg-gray-900 border border-gray-800 rounded-lg p-6 mb-8">
-              <div class="flex justify-between items-center mb-6">
-                <button
-                  class="w-10 h-10 flex items-center justify-center text-white hover:text-primary"
-                  id="prev-month"
-                >
-                  <i class="ri-arrow-left-s-line ri-lg"></i>
-                </button>
-                <h3 class="text-xl font-semibold" id="current-month">
-                  April 2025
-                </h3>
-                <button
-                  class="w-10 h-10 flex items-center justify-center text-white hover:text-primary"
-                  id="next-month"
-                >
-                  <i class="ri-arrow-right-s-line ri-lg"></i>
-                </button>
-              </div>
-              <!-- Calendar Days Header -->
-              <div class="grid grid-cols-7 mb-2">
-                <div class="text-center text-sm text-gray-400 py-2">Sun</div>
-                <div class="text-center text-sm text-gray-400 py-2">Mon</div>
-                <div class="text-center text-sm text-gray-400 py-2">Tue</div>
-                <div class="text-center text-sm text-gray-400 py-2">Wed</div>
-                <div class="text-center text-sm text-gray-400 py-2">Thu</div>
-                <div class="text-center text-sm text-gray-400 py-2">Fri</div>
-                <div class="text-center text-sm text-gray-400 py-2">Sat</div>
-              </div>
-              <!-- Calendar Grid -->
-              <div class="grid grid-cols-7 gap-1" id="calendar-grid">
-                <!-- Calendar days will be generated by JavaScript -->
-              </div>
-            </div>
-            <div class="bg-gray-900 border border-gray-800 rounded-lg p-6">
-              <h3 class="text-xl font-semibold mb-4">Available Time Slots</h3>
-              <p class="text-gray-400 mb-4">
-                Selected date:
-                <span class="text-white" id="selected-date"
-                  >Thursday, April 24, 2025</span
-                >
-              </p>
-              <div
-                class="grid grid-cols-2 sm:grid-cols-3 gap-3"
-                id="time-slots"
-              >
-                <div
-                  class="time-slot border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>7:00 AM</span>
-                </div>
-                <div
-                  class="time-slot border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>8:30 AM</span>
-                </div>
-                <div
-                  class="time-slot booked border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>10:00 AM</span>
-                </div>
-                <div
-                  class="time-slot booked border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>11:30 AM</span>
-                </div>
-                <div
-                  class="time-slot border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>1:00 PM</span>
-                </div>
-                <div
-                  class="time-slot border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>2:30 PM</span>
-                </div>
-                <div
-                  class="time-slot border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>4:00 PM</span>
-                </div>
-                <div
-                  class="time-slot booked border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>5:30 PM</span>
-                </div>
-                <div
-                  class="time-slot border border-gray-700 rounded text-center py-3 px-2"
-                >
-                  <span>7:00 PM</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Booking Form -->
-          <div class="bg-gray-900 border border-gray-800 rounded-lg p-8">
-            <h3 class="text-2xl font-semibold mb-6">Complete Your Booking</h3>
-            <form id="booking-form">
-              <div class="mb-6">
-                <label for="name" class="block text-gray-300 mb-2"
-                  >Full Name</label
-                >
-                <input
-                  type="text"
-                  id="name"
-                  class="w-full bg-gray-800 border-none rounded py-3 px-4 text-white"
-                  placeholder="Enter your full name"
-                  required
-                />
-              </div>
-              <div class="mb-6">
-                <label for="email" class="block text-gray-300 mb-2"
-                  >Email Address</label
-                >
-                <input
-                  type="email"
-                  id="email"
-                  class="w-full bg-gray-800 border-none rounded py-3 px-4 text-white"
-                  placeholder="Enter your email address"
-                  required
-                />
-              </div>
-              <div class="mb-6">
-                <label for="phone" class="block text-gray-300 mb-2"
-                  >Phone Number</label
-                >
-                <input
-                  type="tel"
-                  id="phone"
-                  class="w-full bg-gray-800 border-none rounded py-3 px-4 text-white"
-                  placeholder="Enter your phone number"
-                  required
-                />
-              </div>
-              <div class="mb-6">
-                <label class="block text-gray-300 mb-2">Training Package</label>
-                <div class="space-y-3">
-                  <div class="flex items-center">
-                    <div
-                      class="custom-radio checked"
-                      data-value="starter"
-                    ></div>
-                    <label class="ml-3 cursor-pointer"
-                      >Starter Plan ($79/month)</label
-                    >
-                  </div>
-                  <div class="flex items-center">
-                    <div class="custom-radio" data-value="premium"></div>
-                    <label class="ml-3 cursor-pointer"
-                      >Premium Plan ($149/month)</label
-                    >
-                  </div>
-                  <div class="flex items-center">
-                    <div class="custom-radio" data-value="elite"></div>
-                    <label class="ml-3 cursor-pointer"
-                      >Elite Plan ($299/month)</label
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="mb-6">
-                <label class="block text-gray-300 mb-2"
-                  >Fitness Goals (select all that apply)</label
-                >
-                <div class="space-y-3">
-                  <div class="flex items-center">
-                    <div class="custom-checkbox" data-value="weight-loss"></div>
-                    <label class="ml-3 cursor-pointer">Weight Loss</label>
-                  </div>
-                  <div class="flex items-center">
-                    <div
-                      class="custom-checkbox checked"
-                      data-value="muscle-gain"
-                    ></div>
-                    <label class="ml-3 cursor-pointer">Muscle Gain</label>
-                  </div>
-                  <div class="flex items-center">
-                    <div class="custom-checkbox" data-value="endurance"></div>
-                    <label class="ml-3 cursor-pointer"
-                      >Endurance Training</label
-                    >
-                  </div>
-                  <div class="flex items-center">
-                    <div class="custom-checkbox" data-value="flexibility"></div>
-                    <label class="ml-3 cursor-pointer"
-                      >Flexibility & Mobility</label
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="mb-6">
-                <label for="message" class="block text-gray-300 mb-2"
-                  >Additional Information</label
-                >
-                <textarea
-                  id="message"
-                  rows="4"
-                  class="w-full bg-gray-800 border-none rounded py-3 px-4 text-white"
-                  placeholder="Tell me about any specific needs, injuries, or preferences"
-                ></textarea>
-              </div>
-              <div class="mb-8 flex items-start">
-                <div class="custom-switch active mt-1">
-                  <div class="custom-switch-track">
-                    <div class="custom-switch-thumb"></div>
-                  </div>
-                </div>
-                <label class="ml-3 text-sm text-gray-300"
-                  >I agree to receive email notifications about my bookings and
-                  occasional promotions. You can unsubscribe at any time.</label
-                >
-              </div>
-            <a href="https://www.colorhexa.com/000080">
-              <button
-                type="submit"
-                class="w-full bg-primary text-white py-3 !rounded-button font-medium hover:bg-opacity-90 transition-all text-lg whitespace-nowrap"
-              >
-                Confirm Booking
-              </button>
-            </a>
-            </form>
-          </div>
         </div>
       </div>
     </section>
