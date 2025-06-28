@@ -214,6 +214,27 @@ module.exports = {
                 },
                 "hGc1HK50it6u-image-border": "#00000000",
                 "hGc1HK50it6u-section-background": "#2B1D2A75",
+                "ewACGpkNi6DZ-content-0-image-border": {
+                    "50": "#a49cb2",
+                    "100": "#9891a6",
+                    "200": "#80798e",
+                    "300": "#6a6377",
+                    "400": "#544e60",
+                    "500": "#3f394b",
+                    "600": "#2b2637",
+                    "700": "#181323",
+                    "800": "#000011",
+                    "900": "#000000",
+                    "DEFAULT": "#3f394b"
+                },
+                "ewACGpkNi6DZ-section-background": "#2B1D2A75",
+                "Qg5FRgyWREwX-team-member-border": "#8E7327AB",
+                "Qg5FRgyWREwX-section-background": "#2B1D2A75",
+                "Qg5FRgyWREwX-team-member-background": "#58512E52",
+                "31lqQKThwQfa-body": "#00000000",
+                "31lqQKThwQfa-image-border": "#00000000",
+                "31lqQKThwQfa-section-background": "#2B1D2A75",
+                "9G7Z27AXxCik-section-background": "#00000000",
                 "YClZLms7CRBK-header": {
                     "50": "#ffffff",
                     "100": "#ffffff",
@@ -242,6 +263,36 @@ module.exports = {
                 },
                 "YClZLms7CRBK-feature-background": "#262625D1",
                 "YClZLms7CRBK-section-background": "#2B1D2A75",
+                "LXzO5RluIouO-feature-border": {
+                    "50": "#94a1bb",
+                    "100": "#8895af",
+                    "200": "#717e97",
+                    "300": "#5b677f",
+                    "400": "#455269",
+                    "500": "#303d53",
+                    "600": "#1c293e",
+                    "700": "#07172a",
+                    "800": "#000019",
+                    "900": "#000000",
+                    "DEFAULT": "#303d53"
+                },
+                "LXzO5RluIouO-feature-background": {
+                    "50": "#7e899f",
+                    "100": "#737d93",
+                    "200": "#5c677c",
+                    "300": "#475165",
+                    "400": "#323d50",
+                    "500": "#1e293b",
+                    "600": "#0a1727",
+                    "700": "#000016",
+                    "800": "#000000",
+                    "900": "#000000",
+                    "DEFAULT": "#1e293b"
+                },
+                "LXzO5RluIouO-section-background": "#2B1D2A75",
+                "0UrNYoY03GOo-team-member-border": "#8E7327AB",
+                "0UrNYoY03GOo-section-background": "#2B1D2A75",
+                "0UrNYoY03GOo-team-member-background": "#58512E52",
                 "S85Kvf46h9Em-faq-border": "#E993008A",
                 "S85Kvf46h9Em-faq-background": {
                     "50": "#7d737d",
@@ -257,6 +308,11 @@ module.exports = {
                     "DEFAULT": "#1f171f"
                 },
                 "S85Kvf46h9Em-section-background": "#2B1D2A75",
+                "k3X3fIZLXunf-faq-border": "#E993008A",
+                "k3X3fIZLXunf-faq-background": "#1F171F75",
+                "k3X3fIZLXunf-section-background": "#2B1D2A75",
+                "i3TdxSxjxguu-section-background": "#2B1D2A75",
+                "6aIKgfUyo4st-section-background": "#2B1D2A75",
                 "RbGoAk9Yq7kj-features-0-image-border": {
                     "50": "#5f5f5f",
                     "100": "#555555",
@@ -297,32 +353,6 @@ module.exports = {
                     "DEFAULT": "#000000"
                 },
                 "RbGoAk9Yq7kj-features-3-image-border": {
-                    "50": "#5f5f5f",
-                    "100": "#555555",
-                    "200": "#404040",
-                    "300": "#2c2c2c",
-                    "400": "#191919",
-                    "500": "#000000",
-                    "600": "#000000",
-                    "700": "#000000",
-                    "800": "#000000",
-                    "900": "#000000",
-                    "DEFAULT": "#000000"
-                },
-                "RbGoAk9Yq7kj-features-4-image-border": {
-                    "50": "#5f5f5f",
-                    "100": "#555555",
-                    "200": "#404040",
-                    "300": "#2c2c2c",
-                    "400": "#191919",
-                    "500": "#000000",
-                    "600": "#000000",
-                    "700": "#000000",
-                    "800": "#000000",
-                    "900": "#000000",
-                    "DEFAULT": "#000000"
-                },
-                "RbGoAk9Yq7kj-features-5-image-border": {
                     "50": "#5f5f5f",
                     "100": "#555555",
                     "200": "#404040",
@@ -427,19 +457,6 @@ module.exports = {
                     "900": "#000000",
                     "DEFAULT": "#342333"
                 },
-                "31lqQKThwQfa-image-border": {
-                    "50": "#ad91ab",
-                    "100": "#a0859f",
-                    "200": "#896f87",
-                    "300": "#725870",
-                    "400": "#5b435a",
-                    "500": "#462f45",
-                    "600": "#311c31",
-                    "700": "#1f071e",
-                    "800": "#0d0009",
-                    "900": "#000000",
-                    "DEFAULT": "#462f45"
-                },
                 "ETgFRUPS0kNb-link": {
                     "50": "#ffffff",
                     "100": "#ffffff",
@@ -465,6 +482,45 @@ module.exports = {
                     "800": "#9a1f20",
                     "900": "#7f000e",
                     "DEFAULT": "#ed6a5e"
+                },
+                "l5QkgAvDEOlm-content-0-image-border": {
+                    "50": "#ffffc4",
+                    "100": "#fff7b7",
+                    "200": "#ffdd9f",
+                    "300": "#ebc487",
+                    "400": "#d1ac70",
+                    "500": "#b79459",
+                    "600": "#9e7d43",
+                    "700": "#85662e",
+                    "800": "#6d5119",
+                    "900": "#553c02",
+                    "DEFAULT": "#b79459"
+                },
+                "l5QkgAvDEOlm-content-1-image-border": {
+                    "50": "#ffffc4",
+                    "100": "#fff7b7",
+                    "200": "#ffdd9f",
+                    "300": "#ebc487",
+                    "400": "#d1ac70",
+                    "500": "#b79459",
+                    "600": "#9e7d43",
+                    "700": "#85662e",
+                    "800": "#6d5119",
+                    "900": "#553c02",
+                    "DEFAULT": "#b79459"
+                },
+                "l5QkgAvDEOlm-content-2-image-border": {
+                    "50": "#ffffc4",
+                    "100": "#fff7b7",
+                    "200": "#ffdd9f",
+                    "300": "#ebc487",
+                    "400": "#d1ac70",
+                    "500": "#b79459",
+                    "600": "#9e7d43",
+                    "700": "#85662e",
+                    "800": "#6d5119",
+                    "900": "#553c02",
+                    "DEFAULT": "#b79459"
                 }
             },
             "fontFamily": {
