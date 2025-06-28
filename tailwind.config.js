@@ -233,7 +233,6 @@ module.exports = {
                 "Qg5FRgyWREwX-team-member-background": "#58512E52",
                 "31lqQKThwQfa-body": "#00000000",
                 "31lqQKThwQfa-image-border": "#00000000",
-                "31lqQKThwQfa-section-background": "#2B1D2A75",
                 "9G7Z27AXxCik-section-background": "#00000000",
                 "YClZLms7CRBK-header": {
                     "50": "#ffffff",
@@ -289,7 +288,6 @@ module.exports = {
                     "900": "#000000",
                     "DEFAULT": "#1e293b"
                 },
-                "LXzO5RluIouO-section-background": "#2B1D2A75",
                 "0UrNYoY03GOo-team-member-border": "#8E7327AB",
                 "0UrNYoY03GOo-section-background": "#2B1D2A75",
                 "0UrNYoY03GOo-team-member-background": "#58512E52",
