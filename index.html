@@ -1,130 +1,1672 @@
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Contest preparation</title>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,400;0,500;0,700;1,300&amp;display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,400;0,500;0,700;1,300&amp;display=swap">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.2.5/swiper-bundle.min.css">
-      <link rel="stylesheet" href="styles.css">
-      <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" defer></script>
-      <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.5/swiper-bundle.min.js"></script>
-   </head>
-   <body class="overflow-hidden antialiased bg-no-repeat bg-cover bg-background bg-main bg-body-position font-body">
-      <div id="app">
-         <header id="x6Pf4qGpGG8z" class="z-10 fixed w-full backdrop-filter" x-data="{scrollAtTop: true, mobileMenuOpen: false}" x-bind:class="{'backdrop-blur-lg': !scrollAtTop}" x-on:scroll.window="scrollAtTop = window.pageYOffset &gt; 0 ? false : true">
-            <div class="max-w-none px-4 mx-auto md:px-8">
-               <nav class="flex items-center justify-between py-6">
-                  <div class="flex items-center justify-between"><a href="/"><img class="max-h-12 w-auto" src="85909.png"></a></div>
-                  <div class="text-xl font-x6Pf4qGpGG8z-link hidden ml-8 space-x-4 md:flex"><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">1:1 Coaching</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">Szolg&aacute;ltat&aacute;sok</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">V&eacute;lem&eacute;nyek</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">Id&#337;pont</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">P&oacute;zoktat&aacute;s</a></div>
-                  <button type="button" class="text-x6Pf4qGpGG8z-link focus:outline-none md:hidden" x-on:click="mobileMenuOpen = !mobileMenuOpen">
-                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true" x-show="!mobileMenuOpen">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                     </svg>
-                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" x-show="mobileMenuOpen" x-cloak>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                     </svg>
-                  </button>
-                  <div class="items-center hidden space-x-4 text-x6Pf4qGpGG8z-link md:flex"><a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 px-4 py-2 text-base" target>Csatlakoz&aacute;s</a></div>
-               </nav>
-            </div>
-            <div class="absolute inset-x-0 px-2 top-2 md:hidden" x-show="mobileMenuOpen" x-cloak x-transition:enter="duration-150 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
-               <div class="rounded-2xl relative p-4 bg-primary">
-                  <div class="text-x6Pf4qGpGG8z-link absolute cursor-pointer top-4 right-4" x-on:click="mobileMenuOpen = false">
-                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                     </svg>
-                  </div>
-                  <a href="/" class="block mb-4"><img class="max-h-12 w-auto" src="85909.png"></a>
-                  <div class="space-y-2">
-                     <div class="text-xl font-x6Pf4qGpGG8z-link"><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">1:1 Coaching</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">Szolg&aacute;ltat&aacute;sok</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">V&eacute;lem&eacute;nyek</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">Id&#337;pont</a><a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">P&oacute;zoktat&aacute;s</a></div>
-                  </div>
-                  <div class="text-x6Pf4qGpGG8z-link mt-4 space-x-2"><a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 px-4 py-2 text-base bg-white !text-primary hover:bg-white hover:bg-opacity-75" target>Csatlakoz&aacute;s</a></div>
-               </div>
-            </div>
-         </header>
-         <section id="cTmtmiLfOLfw" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
-            <div>
-               <div class="max-w-6xl mx-auto">
-                  <div class="relative max-w-5xl text-center mx-auto mb-12"></div>
-               </div>
-               <div class="max-w-6xl mx-auto">
-                  <div class="relative">
-                     <div aria-hidden="true" class="absolute inset-0 overflow-hidden -z-1 transform-gpu blur-3xl">
-                        <div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(0 63%, 44% 70%, 100% 40%, 100% 100%, 44% 77%, 0 100%);"></div>
-                     </div>
-                     <div class="relative grid grid-cols-1 gap-3 md:grid-cols-3"><img src="81697.jpg" class="rounded-2xl object-cover w-full h-full col-span-1 row-span-1" data-aos="fade-up" data-aos-delay="150"></div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section id="xA0z5YdGslN9" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
-            <div>
-               <div class="max-w-6xl mx-auto">
-                  <div class="relative max-w-5xl text-center mx-auto mb-12"></div>
-               </div>
-               <div class="max-w-6xl mx-auto">
-                  <div class="relative">
-                     <div aria-hidden="true" class="absolute inset-0 overflow-hidden -z-1 transform-gpu blur-3xl">
-                        <div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(
-                           74.1% 44.1%,
-                           90% 39%,
-                           100% 17%,
-                           100% 0,
-                           52% 0,
-                           65% 28%,
-                           74% 44%,
-                           26% 49%,
-                           27% 10%,
-                           0 0,
-                           0 31%,
-                           0.1% 64.9%,
-                           52% 57%,
-                           87% 100%,
-                           100% 75%,
-                           52% 58%
-                           );"></div>
-                     </div>
-                     <div class="relative grid grid-cols-1 gap-3 md:grid-cols-3"><img src="81697.jpg" class="rounded-2xl object-cover w-full h-full col-span-1 row-span-1" data-aos="fade-up" data-aos-delay="150"></div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <footer id="ETgFRUPS0kNb" class="px-4 md:px-8 bg-ETgFRUPS0kNb-background py-6">
-            <div class="max-w-6xl flex justify-between mx-auto md:items-end">
-               <div><img class="max-h-12 w-auto" src="85909.png"></div>
-               <div>
-                  <div class="flex mb-4 space-x-2 md:justify-end">
-                     <a href="https://www.instagram.com/https://www.instagram.com/afulopmarcell/" class="text-ETgFRUPS0kNb-link" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" class="w-5 h-5">
-                           <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
-                        </svg>
-                     </a>
-                     <a href="https://tiktok.com/https://www.tiktok.com/@afulopmarcell" class="text-ETgFRUPS0kNb-link" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" class="w-5 h-5">
-                           <path fill="currentColor" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"></path>
-                        </svg>
-                     </a>
-                     <a href="https://youtube.com/https://www.youtube.com/@FMCoaching" class="text-ETgFRUPS0kNb-link" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" class="w-5 h-5">
-                           <path fill="currentColor" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path>
-                        </svg>
-                     </a>
-                  </div>
-                  <div class="flex flex-col md:flex-row md:space-x-4"><a href="#" target class="transition-colors ease-in-out duration-200 text-ETgFRUPS0kNb-mobile-link hover:text-ETgFRUPS0kNb-mobile-link-hover md:text-ETgFRUPS0kNb-link md:hover:text-ETgFRUPS0kNb-link-hover text-sm text-ETgFRUPS0kNb-link hover:text-ETgFRUPS0kNb-link-hover">&Aacute;SZF</a><a href="#" target class="transition-colors ease-in-out duration-200 text-ETgFRUPS0kNb-mobile-link hover:text-ETgFRUPS0kNb-mobile-link-hover md:text-ETgFRUPS0kNb-link md:hover:text-ETgFRUPS0kNb-link-hover text-sm text-ETgFRUPS0kNb-link hover:text-ETgFRUPS0kNb-link-hover">ADATKEZEL&Eacute;SI &Uacute;TMUTAT&Oacute;</a></div>
-               </div>
-            </div>
-         </footer>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
-      <script>
-         AOS.init({
-                   once: true
-               })
-           
-      </script>
-   </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index</title>
+
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,400;0,500;0,700;1,300&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,400;0,500;0,700;1,300&amp;display=swap">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.2.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.5/swiper-bundle.min.js"></script>
+</head>
+<body class="overflow-hidden antialiased bg-no-repeat bg-cover bg-background bg-main bg-body-position font-body">
+    
+
+    <div id="app">
+<header id="x6Pf4qGpGG8z" class="z-10 fixed w-full backdrop-filter" x-data="{scrollAtTop: true, mobileMenuOpen: false}" x-bind:class="{'backdrop-blur-lg': !scrollAtTop}" x-on:scroll.window="scrollAtTop = window.pageYOffset &gt; 0 ? false : true">
+<div class="max-w-none px-4 mx-auto md:px-8">
+<nav class="flex items-center justify-between py-6">
+<div class="flex items-center justify-between">
+<a href="/">
+<img class="max-h-12 w-auto" src="85909.png">
+</a>
+</div>
+<div class="text-xl font-x6Pf4qGpGG8z-link hidden ml-8 space-x-4 md:flex">
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">1:1 Coaching</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">Szolg&aacute;ltat&aacute;sok</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">V&eacute;lem&eacute;nyek</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">Id&#337;pont</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover">Versenyfelk&eacute;sz&uuml;l&eacute;s</a>
+</div>
+<button type="button" class="text-x6Pf4qGpGG8z-link focus:outline-none md:hidden" x-on:click="mobileMenuOpen = !mobileMenuOpen">
+<svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true" x-show="!mobileMenuOpen">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+</path>
+</svg>
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" x-show="mobileMenuOpen" x-cloak>
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+</path>
+</svg>
+</button>
+<div class="items-center hidden space-x-4 text-x6Pf4qGpGG8z-link md:flex">
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 px-4 py-2 text-base" target>Csatlakoz&aacute;s</a>
+</div>
+</nav>
+</div>
+<div class="absolute inset-x-0 px-2 top-2 md:hidden" x-show="mobileMenuOpen" x-cloak x-transition:enter="duration-150 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
+<div class="rounded-2xl relative p-4 bg-primary">
+<div class="text-x6Pf4qGpGG8z-link absolute cursor-pointer top-4 right-4" x-on:click="mobileMenuOpen = false">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+</path>
+</svg>
+</div>
+<a href="/" class="block mb-4">
+<img class="max-h-12 w-auto" src="85909.png">
+</a>
+<div class="space-y-2">
+<div class="text-xl font-x6Pf4qGpGG8z-link">
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">1:1 Coaching</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">Szolg&aacute;ltat&aacute;sok</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">V&eacute;lem&eacute;nyek</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">Id&#337;pont</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-x6Pf4qGpGG8z-mobile-link hover:text-x6Pf4qGpGG8z-mobile-link-hover md:text-x6Pf4qGpGG8z-link md:hover:text-x6Pf4qGpGG8z-link-hover block">Versenyfelk&eacute;sz&uuml;l&eacute;s</a>
+</div>
+</div>
+<div class="text-x6Pf4qGpGG8z-link mt-4 space-x-2">
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 px-4 py-2 text-base bg-white !text-primary hover:bg-white hover:bg-opacity-75" target>Csatlakoz&aacute;s</a>
+</div>
+</div>
+</div>
+</header>
+<section id="hGc1HK50it6u" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" imagesize="5xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div class="max-w-screen-2xl mx-auto">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewbox="0 0 1422 800" class="fill-primary absolute inset-0 -z-1 h-full w-full [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" opacity="0.2">
+<g transform="matrix(4,0,0,4,-2130,-1203)">
+<circle r="0.5" cx="716" cy="400" opacity="0.66">
+</circle>
+<circle r="0.5" cx="711" cy="407" opacity="0.62">
+</circle>
+<circle r="0.5" cx="703" cy="399" opacity="0.71">
+</circle>
+<circle r="0.5" cx="713" cy="390" opacity="0.47">
+</circle>
+<circle r="0.5" cx="722" cy="403" opacity="0.21">
+</circle>
+<circle r="0.5" cx="707" cy="412" opacity="0.32">
+</circle>
+<circle r="0.5" cx="697" cy="394" opacity="0.87">
+</circle>
+<circle r="0.5" cx="719" cy="385" opacity="0.87">
+</circle>
+<circle r="0.5" cx="726" cy="410" opacity="0.30">
+</circle>
+<circle r="0.5" cx="699" cy="416" opacity="0.71">
+</circle>
+<circle r="0.5" cx="695" cy="386" opacity="0.32">
+</circle>
+<circle r="0.5" cx="727" cy="383" opacity="0.38">
+</circle>
+<circle r="0.5" cx="728" cy="418" opacity="0.77">
+</circle>
+<circle r="0.5" cx="690" cy="416" opacity="0.20">
+</circle>
+<circle r="0.5" cx="695" cy="377" opacity="0.17">
+</circle>
+<circle r="1" cx="736" cy="385" opacity="0.37">
+</circle>
+<circle r="1" cx="725" cy="428" opacity="0.81">
+</circle>
+<circle r="1" cx="681" cy="413" opacity="0.97">
+</circle>
+<circle r="1" cx="700" cy="367" opacity="0.66">
+</circle>
+<circle r="1" cx="746" cy="391" opacity="0.59">
+</circle>
+<circle r="1" cx="718" cy="437" opacity="0.59">
+</circle>
+<circle r="1" cx="672" cy="405" opacity="0.68">
+</circle>
+<circle r="1" cx="709" cy="359" opacity="0.74">
+</circle>
+<circle r="1" cx="754" cy="401" opacity="0.48">
+</circle>
+<circle r="1" cx="707" cy="444" opacity="0.66">
+</circle>
+<circle r="1" cx="666" cy="393" opacity="0.94">
+</circle>
+<circle r="1" cx="722" cy="354" opacity="0.70">
+</circle>
+<circle r="1" cx="758" cy="414" opacity="0.23">
+</circle>
+<circle r="1" cx="693" cy="448" opacity="1.00">
+</circle>
+<circle r="1" cx="663" cy="378" opacity="0.74">
+</circle>
+<circle r="1" cx="737" cy="353" opacity="0.86">
+</circle>
+<circle r="1" cx="758" cy="430" opacity="0.40">
+</circle>
+<circle r="1" cx="677" cy="446" opacity="0.91">
+</circle>
+<circle r="1" cx="666" cy="361" opacity="0.63">
+</circle>
+<circle r="1" cx="754" cy="357" opacity="0.34">
+</circle>
+<circle r="1" cx="752" cy="447" opacity="0.13">
+</circle>
+<circle r="1" cx="660" cy="439" opacity="0.39">
+</circle>
+<circle r="1" cx="675" cy="345" opacity="0.54">
+</circle>
+<circle r="1" cx="770" cy="367" opacity="0.68">
+</circle>
+<circle r="1" cx="741" cy="462" opacity="0.22">
+</circle>
+<circle r="1" cx="645" cy="426" opacity="0.71">
+</circle>
+<circle r="1" cx="689" cy="331" opacity="0.66">
+</circle>
+<circle r="1" cx="783" cy="383" opacity="0.86">
+</circle>
+<circle r="1" cx="723" cy="474" opacity="0.78">
+</circle>
+<circle r="1.5" cx="634" cy="407" opacity="0.81">
+</circle>
+<circle r="1.5" cx="709" cy="321" opacity="0.14">
+</circle>
+<circle r="1.5" cx="791" cy="403" opacity="0.78">
+</circle>
+<circle r="1.5" cx="702" cy="482" opacity="0.53">
+</circle>
+<circle r="1.5" cx="629" cy="385" opacity="0.16">
+</circle>
+<circle r="1.5" cx="732" cy="317" opacity="0.61">
+</circle>
+<circle r="1.5" cx="794" cy="427" opacity="0.63">
+</circle>
+<circle r="1.5" cx="677" cy="482" opacity="0.61">
+</circle>
+<circle r="1.5" cx="630" cy="360" opacity="0.36">
+</circle>
+<circle r="1.5" cx="757" cy="321" opacity="0.89">
+</circle>
+<circle r="1.5" cx="788" cy="452" opacity="0.69">
+</circle>
+<circle r="1.5" cx="652" cy="475" opacity="0.72">
+</circle>
+<circle r="1.5" cx="639" cy="335" opacity="0.98">
+</circle>
+<circle r="1.5" cx="782" cy="332" opacity="0.93">
+</circle>
+<circle r="1.5" cx="775" cy="477" opacity="0.89">
+</circle>
+<circle r="1.5" cx="629" cy="460" opacity="0.20">
+</circle>
+<circle r="1.5" cx="656" cy="312" opacity="1.00">
+</circle>
+<circle r="1.5" cx="804" cy="350" opacity="0.22">
+</circle>
+<circle r="1.5" cx="755" cy="497" opacity="0.97">
+</circle>
+<circle r="1.5" cx="609" cy="437" opacity="0.32">
+</circle>
+<circle r="1.5" cx="680" cy="294" opacity="0.33">
+</circle>
+<circle r="1.5" cx="820" cy="376" opacity="0.32">
+</circle>
+<circle r="1.5" cx="727" cy="512" opacity="0.86">
+</circle>
+<circle r="1.5" cx="596" cy="409" opacity="0.42">
+</circle>
+<circle r="1.5" cx="710" cy="283" opacity="0.50">
+</circle>
+<circle r="1.5" cx="829" cy="407" opacity="0.35">
+</circle>
+<circle r="1.5" cx="695" cy="519" opacity="0.41">
+</circle>
+<circle r="1.5" cx="592" cy="376" opacity="0.69">
+</circle>
+<circle r="1.5" cx="744" cy="281" opacity="0.60">
+</circle>
+<circle r="1.5" cx="829" cy="442" opacity="0.60">
+</circle>
+<circle r="2" cx="661" cy="516" opacity="0.18">
+</circle>
+<circle r="2" cx="597" cy="341" opacity="0.96">
+</circle>
+<circle r="2" cx="778" cy="289" opacity="0.81">
+</circle>
+<circle r="2" cx="818" cy="476" opacity="0.25">
+</circle>
+<circle r="2" cx="627" cy="503" opacity="0.89">
+</circle>
+<circle r="2" cx="613" cy="308" opacity="0.93">
+</circle>
+<circle r="2" cx="811" cy="307" opacity="0.51">
+</circle>
+<circle r="2" cx="797" cy="507" opacity="0.86">
+</circle>
+<circle r="2" cx="597" cy="480" opacity="0.66">
+</circle>
+<circle r="2" cx="639" cy="279" opacity="0.83">
+</circle>
+<circle r="2" cx="838" cy="335" opacity="0.72">
+</circle>
+<circle r="2" cx="767" cy="533" opacity="0.17">
+</circle>
+<circle r="2" cx="573" cy="448" opacity="0.18">
+</circle>
+<circle r="2" cx="673" cy="257" opacity="0.57">
+</circle>
+<circle r="2" cx="858" cy="371" opacity="0.72">
+</circle>
+<circle r="2" cx="730" cy="550" opacity="0.18">
+</circle>
+<circle r="2" cx="559" cy="408" opacity="0.31">
+</circle>
+<circle r="2" cx="713" cy="246" opacity="0.54">
+</circle>
+<circle r="2" cx="866" cy="413" opacity="0.50">
+</circle>
+<circle r="2" cx="687" cy="556" opacity="0.34">
+</circle>
+<circle r="2" cx="556" cy="365" opacity="0.25">
+</circle>
+<circle r="2" cx="757" cy="246" opacity="0.76">
+</circle>
+<circle r="2" cx="863" cy="457" opacity="0.26">
+</circle>
+<circle r="2" cx="643" cy="549" opacity="0.87">
+</circle>
+<circle r="2" cx="565" cy="321" opacity="0.43">
+</circle>
+<circle r="2" cx="801" cy="259" opacity="0.26">
+</circle>
+<circle r="2" cx="847" cy="501" opacity="0.32">
+</circle>
+<circle r="2" cx="600" cy="530" opacity="0.95">
+</circle>
+<circle r="2" cx="588" cy="279" opacity="0.60">
+</circle>
+<circle r="2.5" cx="841" cy="285" opacity="0.69">
+</circle>
+<circle r="2.5" cx="818" cy="539" opacity="0.79">
+</circle>
+<circle r="2.5" cx="564" cy="498" opacity="0.87">
+</circle>
+<circle r="2.5" cx="622" cy="245" opacity="0.69">
+</circle>
+<circle r="2.5" cx="874" cy="322" opacity="0.23">
+</circle>
+<circle r="2.5" cx="779" cy="569" opacity="0.33">
+</circle>
+<circle r="2.5" cx="536" cy="456" opacity="0.57">
+</circle>
+<circle r="2.5" cx="667" cy="220" opacity="0.43">
+</circle>
+<circle r="2.5" cx="895" cy="368" opacity="0.22">
+</circle>
+<circle r="2.5" cx="730" cy="588" opacity="0.90">
+</circle>
+<circle r="2.5" cx="521" cy="406" opacity="0.35">
+</circle>
+<circle r="2.5" cx="718" cy="208" opacity="0.74">
+</circle>
+<circle r="2.5" cx="904" cy="420" opacity="0.41">
+</circle>
+<circle r="2.5" cx="677" cy="592" opacity="0.78">
+</circle>
+<circle r="2.5" cx="520" cy="353" opacity="0.77">
+</circle>
+<circle r="2.5" cx="772" cy="211" opacity="0.19">
+</circle>
+<circle r="2.5" cx="897" cy="474" opacity="0.77">
+</circle>
+<circle r="2.5" cx="623" cy="582" opacity="0.21">
+</circle>
+<circle r="2.5" cx="534" cy="299" opacity="0.71">
+</circle>
+<circle r="2.5" cx="825" cy="229" opacity="0.10">
+</circle>
+<circle r="2.5" cx="875" cy="526" opacity="0.69">
+</circle>
+<circle r="2.5" cx="572" cy="556" opacity="0.39">
+</circle>
+<circle r="2.5" cx="564" cy="250" opacity="0.17">
+</circle>
+<circle r="2.5" cx="872" cy="263" opacity="0.39">
+</circle>
+<circle r="2.5" cx="838" cy="572" opacity="0.69">
+</circle>
+<circle r="2.5" cx="530" cy="515" opacity="0.80">
+</circle>
+<circle r="2.5" cx="608" cy="210" opacity="0.80">
+</circle>
+<circle r="2.5" cx="909" cy="309" opacity="0.12">
+</circle>
+<circle r="2.5" cx="788" cy="606" opacity="0.68">
+</circle>
+<circle r="3" cx="499" cy="463" opacity="0.62">
+</circle>
+<circle r="3" cx="662" cy="182" opacity="0.98">
+</circle>
+<circle r="3" cx="933" cy="366" opacity="0.47">
+</circle>
+<circle r="3" cx="730" cy="626" opacity="0.42">
+</circle>
+<circle r="3" cx="483" cy="403" opacity="0.80">
+</circle>
+<circle r="3" cx="724" cy="171" opacity="0.76">
+</circle>
+<circle r="3" cx="941" cy="429" opacity="0.54">
+</circle>
+<circle r="3" cx="666" cy="629" opacity="0.31">
+</circle>
+<circle r="3" cx="485" cy="339" opacity="0.53">
+</circle>
+<circle r="3" cx="788" cy="177" opacity="0.70">
+</circle>
+<circle r="3" cx="930" cy="493" opacity="0.70">
+</circle>
+<circle r="3" cx="602" cy="613" opacity="0.55">
+</circle>
+<circle r="3" cx="504" cy="276" opacity="0.45">
+</circle>
+<circle r="3" cx="850" cy="201" opacity="0.87">
+</circle>
+<circle r="3" cx="901" cy="554" opacity="0.27">
+</circle>
+<circle r="3" cx="544" cy="580" opacity="0.83">
+</circle>
+<circle r="3" cx="542" cy="219" opacity="0.69">
+</circle>
+<circle r="3" cx="904" cy="242" opacity="0.87">
+</circle>
+<circle r="3" cx="856" cy="605" opacity="0.54">
+</circle>
+<circle r="3" cx="495" cy="531" opacity="0.98">
+</circle>
+<circle r="3" cx="594" cy="174" opacity="0.31">
+</circle>
+<circle r="3" cx="946" cy="299" opacity="0.68">
+</circle>
+<circle r="3" cx="796" cy="643" opacity="0.22">
+</circle>
+<circle r="3" cx="461" cy="469" opacity="0.43">
+</circle>
+<circle r="3" cx="659" cy="144" opacity="0.38">
+</circle>
+<circle r="3" cx="971" cy="366" opacity="0.24">
+</circle>
+<circle r="3" cx="727" cy="664" opacity="0.42">
+</circle>
+<circle r="3" cx="445" cy="398" opacity="0.86">
+</circle>
+<circle r="3" cx="732" cy="133" opacity="0.37">
+</circle>
+<circle r="3" cx="977" cy="439" opacity="0.66">
+</circle>
+<circle r="3.5" cx="653" cy="664" opacity="0.40">
+</circle>
+<circle r="3.5" cx="450" cy="324" opacity="0.62">
+</circle>
+<circle r="3.5" cx="806" cy="143" opacity="0.56">
+</circle>
+<circle r="3.5" cx="962" cy="513" opacity="0.61">
+</circle>
+<circle r="3.5" cx="580" cy="644" opacity="0.88">
+</circle>
+<circle r="3.5" cx="475" cy="252" opacity="0.56">
+</circle>
+<circle r="3.5" cx="876" cy="173" opacity="0.67">
+</circle>
+<circle r="3.5" cx="927" cy="582" opacity="0.88">
+</circle>
+<circle r="3.5" cx="514" cy="604" opacity="0.11">
+</circle>
+<circle r="3.5" cx="520" cy="188" opacity="0.71">
+</circle>
+<circle r="3.5" cx="937" cy="223" opacity="0.57">
+</circle>
+<circle r="3.5" cx="873" cy="639" opacity="0.81">
+</circle>
+<circle r="3.5" cx="460" cy="546" opacity="0.52">
+</circle>
+<circle r="3.5" cx="582" cy="138" opacity="0.58">
+</circle>
+<circle r="3.5" cx="983" cy="289" opacity="0.39">
+</circle>
+<circle r="3.5" cx="803" cy="681" opacity="0.58">
+</circle>
+<circle r="3.5" cx="423" cy="473" opacity="0.97">
+</circle>
+<circle r="3.5" cx="658" cy="106" opacity="0.37">
+</circle>
+<circle r="3.5" cx="1009" cy="367" opacity="0.35">
+</circle>
+<circle r="3.5" cx="723" cy="702" opacity="0.55">
+</circle>
+<circle r="3.5" cx="408" cy="391" opacity="0.52">
+</circle>
+<circle r="3.5" cx="741" cy="96" opacity="0.48">
+</circle>
+<circle r="3.5" cx="1013" cy="451" opacity="0.43">
+</circle>
+<circle r="3.5" cx="639" cy="700" opacity="0.54">
+</circle>
+<circle r="3.5" cx="415" cy="307" opacity="0.94">
+</circle>
+<circle r="3.5" cx="825" cy="110" opacity="0.76">
+</circle>
+<circle r="3.5" cx="994" cy="535" opacity="0.81">
+</circle>
+<circle r="3.5" cx="556" cy="674" opacity="0.60">
+</circle>
+<circle r="3.5" cx="447" cy="226" opacity="0.99">
+</circle>
+<circle r="4" cx="904" cy="147" opacity="0.26">
+</circle>
+<circle r="4" cx="951" cy="611" opacity="0.99">
+</circle>
+<circle r="4" cx="483" cy="626" opacity="0.24">
+</circle>
+<circle r="4" cx="500" cy="155" opacity="0.77">
+</circle>
+<circle r="4" cx="971" cy="205" opacity="0.60">
+</circle>
+<circle r="4" cx="888" cy="674" opacity="0.93">
+</circle>
+<circle r="4" cx="424" cy="558" opacity="0.78">
+</circle>
+<circle r="4" cx="572" cy="101" opacity="0.86">
+</circle>
+<circle r="4" cx="1020" cy="282" opacity="0.22">
+</circle>
+<circle r="4" cx="808" cy="718" opacity="0.75">
+</circle>
+<circle r="4" cx="385" cy="475" opacity="0.44">
+</circle>
+<circle r="4" cx="658" cy="68" opacity="0.87">
+</circle>
+<circle r="4" cx="1048" cy="370" opacity="0.27">
+</circle>
+<circle r="4" cx="718" cy="739" opacity="0.19">
+</circle>
+<circle r="4" cx="370" cy="383" opacity="0.58">
+</circle>
+<circle r="4" cx="752" cy="60" opacity="0.98">
+</circle>
+<circle r="4" cx="1049" cy="464" opacity="0.81">
+</circle>
+<circle r="4" cx="623" cy="735" opacity="0.16">
+</circle>
+<circle r="4" cx="382" cy="288" opacity="0.35">
+</circle>
+<circle r="4" cx="846" cy="78" opacity="0.93">
+</circle>
+<circle r="4" cx="1025" cy="557" opacity="0.71">
+</circle>
+<circle r="4" cx="531" cy="704" opacity="0.71">
+</circle>
+<circle r="4" cx="419" cy="199" opacity="0.35">
+</circle>
+<circle r="4" cx="933" cy="122" opacity="0.70">
+</circle>
+<circle r="4" cx="975" cy="642" opacity="0.70">
+</circle>
+<circle r="4" cx="451" cy="647" opacity="0.70">
+</circle>
+<circle r="4" cx="481" cy="122" opacity="0.49">
+</circle>
+<circle r="4" cx="1006" cy="189" opacity="0.72">
+</circle>
+<circle r="4" cx="902" cy="710" opacity="0.60">
+</circle>
+<circle r="4.5" cx="387" cy="570" opacity="0.59">
+</circle>
+<circle r="4.5" cx="563" cy="64" opacity="0.15">
+</circle>
+<circle r="4.5" cx="1058" cy="275" opacity="0.72">
+</circle>
+<circle r="4.5" cx="812" cy="757" opacity="0.84">
+</circle>
+<circle r="4.5" cx="347" cy="476" opacity="0.30">
+</circle>
+<circle r="4.5" cx="660" cy="30" opacity="0.35">
+</circle>
+<circle r="4.5" cx="1086" cy="375" opacity="0.20">
+</circle>
+<circle r="4.5" cx="711" cy="777" opacity="0.44">
+</circle>
+<circle r="4.5" cx="333" cy="373" opacity="0.13">
+</circle>
+<circle r="4.5" cx="764" cy="23" opacity="0.45">
+</circle>
+<circle r="4.5" cx="1085" cy="479" opacity="0.23">
+</circle>
+<circle r="4.5" cx="606" cy="769" opacity="0.35">
+</circle>
+<circle r="4.5" cx="349" cy="269" opacity="0.94">
+</circle>
+<circle r="4.5" cx="868" cy="46" opacity="0.49">
+</circle>
+<circle r="4.5" cx="1055" cy="581" opacity="0.72">
+</circle>
+<circle r="4.5" cx="505" cy="732" opacity="0.88">
+</circle>
+<circle r="4.5" cx="393" cy="171" opacity="0.36">
+</circle>
+<circle r="4.5" cx="963" cy="97" opacity="0.60">
+</circle>
+<circle r="4.5" cx="997" cy="673" opacity="0.52">
+</circle>
+<circle r="4.5" cx="418" cy="667" opacity="0.19">
+</circle>
+<circle r="4.5" cx="464" cy="88" opacity="0.90">
+</circle>
+<circle r="4.5" cx="1041" cy="174" opacity="0.80">
+</circle>
+<circle r="4.5" cx="915" cy="746" opacity="0.23">
+</circle>
+<circle r="4.5" cx="350" cy="580" opacity="0.56">
+</circle>
+<circle r="4.5" cx="556" cy="26" opacity="0.72">
+</circle>
+<circle r="4.5" cx="1097" cy="271" opacity="0.30">
+</circle>
+<circle r="4.5" cx="814" cy="795" opacity="0.22">
+</circle>
+<circle r="4.5" cx="308" cy="476" opacity="0.55">
+</circle>
+<circle r="4.5" cx="663" cy="-9" opacity="0.22">
+</circle>
+<circle r="5" cx="1124" cy="381" opacity="0.31">
+</circle>
+<circle r="5" cx="702" cy="815" opacity="0.23">
+</circle>
+<circle r="5" cx="296" cy="362" opacity="0.46">
+</circle>
+<circle r="5" cx="778" cy="-13" opacity="0.87">
+</circle>
+<circle r="5" cx="1120" cy="496" opacity="0.31">
+</circle>
+<circle r="5" cx="587" cy="803" opacity="0.56">
+</circle>
+<circle r="5" cx="316" cy="248" opacity="0.47">
+</circle>
+<circle r="5" cx="891" cy="15" opacity="0.93">
+</circle>
+<circle r="5" cx="1084" cy="607" opacity="0.51">
+</circle>
+<circle r="5" cx="478" cy="759" opacity="0.20">
+</circle>
+<circle r="5" cx="368" cy="142" opacity="0.80">
+</circle>
+<circle r="5" cx="994" cy="74" opacity="0.94">
+</circle>
+<circle r="5" cx="1018" cy="706" opacity="0.43">
+</circle>
+<circle r="5" cx="384" cy="686" opacity="0.61">
+</circle>
+<circle r="5" cx="447" cy="52" opacity="0.23">
+</circle>
+</g>
+</svg>
+<div aria-hidden="true" class="absolute inset-0 overflow-hidden -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(0 63%, 44% 70%, 100% 40%, 100% 100%, 44% 77%, 0 100%);">
+</div>
+</div>
+<div class="relative items-center gap-4 mx-auto lg:flex lg:mt-16 lg:max-w-none lg:gap-12">
+<div class="w-full text-center lg:w-1/2 lg:text-left">
+<h3 class="text-primary-400 inline-block mb-2 text-sm" data-aos="fade-up" data-aos-delay="0">L&Eacute;PJ SZINTET VELEM</h3>
+<h1 class="text-7xl text-hGc1HK50it6u-header w-full font-bold tracking-tight font-title lg:max-w-xl" data-aos="fade-up" data-aos-delay="50">1:1 ONLINE <span class="text-primary">COACHING</span>
+</h1>
+<div class="text-body max-w-lg mt-4 lg:mt-6" data-aos="fade-up" data-aos-delay="80">
+<p>Val&oacute;di figyelem. Val&oacute;di eredm&eacute;ny.<br>Melletted leszek, am&iacute;g el nem hiszed, hogy k&eacute;pes vagy r&aacute;.</p>
+</div>
+<div class="text-hGc1HK50it6u-link flex flex-wrap items-center justify-center mt-8 lg:justify-start" data-aos="fade-up" data-aos-delay="150">
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 py-4 text-lg px-7 mr-2" target>Ingyenes konzult&aacute;ci&oacute;</a>
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 py-4 text-lg px-7 mr-2" target>Csatlakoz&aacute;s</a>
+</div>
+<div class="flex flex-col items-start justify-center gap-6 mt-8 sm:items-center sm:flex-row text-header">
+<div class="flex items-center pl-4 border-l border-primary-300" data-aos="fade-up" data-aos-delay="200">
+<p class="mr-4 text-4xl font-bold">
+</p>
+<p class="text-sm whitespace-pre-line">100% Figyelem, kiz&aacute;r&oacute;lag r&aacute;d ford&iacute;tva</p>
+</div>
+<div class="flex items-center pl-4 border-l border-primary-300" data-aos="fade-up" data-aos-delay="200">
+<p class="mr-4 text-4xl font-bold">
+</p>
+<p class="text-sm whitespace-pre-line">24/7 El&eacute;rhet&#337;s&eacute;g</p>
+</div>
+<div class="flex items-center pl-4 border-l border-primary-300" data-aos="fade-up" data-aos-delay="200">
+<p class="mr-4 text-4xl font-bold">
+</p>
+<p class="text-sm whitespace-pre-line">10+ El&eacute;gedett &uuml;gyf&eacute;l</p>
+</div>
+</div>
+</div>
+<div data-aos="fade-left" data-aos-delay="200" class="drop-shadow-xl rounded-2xl border border-[#00000000] w-full mt-4 overflow-hidden lg:w-1/2 lg:mt-0">
+<img src="19931.png" class="w-full mx-auto">
+</div>
+</div>
+</div>
+</section>
+<section id="ewACGpkNi6DZ" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div class="opacity-[1] brightness-[0.96] blur-[0px] absolute inset-0 bg-center bg-cover pointer-events-none filter z-[-1]" style="background-image: url('37947.png')">
+</div>
+<div class="bg-[#2B1D2A75] mix-blend-normal pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+</div>
+</div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="mt-12 space-y-12 lg:space-y-16">
+<div class="items-center lg:flex-row flex flex-col max-w-md mx-auto lg:max-w-none">
+<div class="lg:mr-8 w-full text-center lg:w-1/2 lg:text-left" data-aos="fade-right" data-aos-delay="150">
+<p class="text-xl text-header font-bold tracking-tight max-w-prose font-title">TAPASZTALD MEG A MET&Oacute;DUSOKAT, MELYEK BAJNOKOKAT FORM&Aacute;LTAK.</p>
+<div class="text-body max-w-md mt-4 lg:mt-6">
+<p>A F&uuml;l&ouml;p Team &ouml;sszes edz&#337;je dolgozott m&aacute;r versenyz&#337;kkel, szem&eacute;lyi edz&#337;kkel &eacute;s &eacute;letm&oacute;dv&aacute;lt&oacute; h&eacute;tk&ouml;znapi emberekkel is &ndash; s&#337;t, sokan k&ouml;z&uuml;l&uuml;k maguk is versenyeztek. Ez&eacute;rt biztos lehetsz benne: j&oacute; kezekben vagy.</p>
+</div>
+</div>
+<div class="relative flex items-center w-full mt-4 lg:w-1/2 lg:mt-0" data-aos="fade-left" data-aos-delay="150">
+<div aria-hidden="true" class="absolute overflow-hidden inset-0 md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(39% 35%, 23% 64%, 83% 95%, 95% 36%, 100% 15%, 81% 0, 71% 63%);">
+</div>
+</div>
+<div class="drop-shadow-xl rounded-2xl border border-[#3f394b] relative overflow-hidden">
+<img src="placeholders/ui-4.png" class="mx-auto">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="Qg5FRgyWREwX" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" headersize="4xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-6xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<h3 class="text-4xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">A H&Eacute;TK&Ouml;ZNAPI EMBEREKEN VAN A SOR</h3>
+</div>
+</div>
+<div class="max-w-6xl mx-auto">
+<div class="gap-y-5 relative flex flex-wrap justify-center mt-12">
+<div aria-hidden="true" class="absolute overflow-hidden inset-0 md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(50% 0%, 44% 26%, 26% 34%, 0 35%, 94% 66%, 99% 100%, 58% 95%, 76% 60%, 0% 35%, 20% 10%);">
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-Qg5FRgyWREwX-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="80">
+<div class="overflow-hidden">
+<img src="95369.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">P&eacute;ld&aacute;ul</p>
+<p class="text-body">h&ouml;lgyek, akik a ny&aacute;rra a legjobb form&aacute;jukat szeretn&eacute;k el&eacute;rni, majd meg&#337;rizni azt hosszasan.</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-Qg5FRgyWREwX-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+<div class="overflow-hidden">
+<img src="240.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">De lehet, hogy</p>
+<p class="text-body">b&uuml;szke apuk&aacute;k, akik t&ouml;bb energi&aacute;t szeretn&eacute;nek, hogy l&eacute;p&eacute;st tudjanak tartani gyermekeikkel.</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-Qg5FRgyWREwX-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="120">
+<div class="overflow-hidden">
+<img src="76218.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">Esetleg</p>
+<p class="text-body">elfoglalt anyuk&aacute;k, akik a magabiztoss&aacute;guk n&ouml;vel&eacute;s&eacute;re v&aacute;gynak a mindennapi &eacute;letben.</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-Qg5FRgyWREwX-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="140">
+<div class="overflow-hidden">
+<img src="65226.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">Vagy az</p>
+<p class="text-body">edz&#337;terem megsz&aacute;llottjai, akik a profik m&oacute;dszereit szeretn&eacute;k elsaj&aacute;t&iacute;tani a di&eacute;t&aacute;z&aacute;s &eacute;s t&ouml;megn&ouml;vel&eacute;s ter&eacute;n.</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="31lqQKThwQfa" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" headersize="4xl">
+<div class="opacity-[0.17] brightness-[0.67] blur-[0px] absolute inset-0 bg-center bg-cover pointer-events-none filter z-[-1]" style="background-image: url('21998.png')">
+</div>
+<div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<h3 class="text-4xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">Neked is megfordult m&aacute;r a fejedben?</h3>
+<div class="text-xl text-31lqQKThwQfa-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">
+<p>.</p>
+</div>
+</div>
+</div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="grid items-center max-w-sm grid-cols-1 gap-3 mx-auto mt-12 md:grid-cols-2 md:max-w-none lg:gap-8">
+<div>
+<div class="space-y-6">
+<div class="flex items-center" data-aos="fade-right" data-aos-delay="80">
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 mr-2 text-primary" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+</path>
+</svg>
+<p class="text-header font-medium">Sz&uuml;ks&eacute;gem van extra elsz&aacute;moltathat&oacute;s&aacute;gra &eacute;s motiv&aacute;ci&oacute;ra</p>
+</div>
+<div class="flex items-center" data-aos="fade-right" data-aos-delay="100">
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 mr-2 text-primary" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+</path>
+</svg>
+<p class="text-header font-medium">Folyamatosan megrekedek az er&#337;nl&eacute;tem &eacute;s fizikumom fejl&#337;d&eacute;s&eacute;ben, &eacute;s nem tudom el&eacute;rni a &bdquo;k&ouml;vetkez&#337; szintet&rdquo;</p>
+</div>
+<div class="flex items-center" data-aos="fade-right" data-aos-delay="120">
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 mr-2 text-primary" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+</path>
+</svg>
+<p class="text-header font-medium">Olyan edz&eacute;stervet szeretn&eacute;k, ami az &Eacute;N egy&eacute;ni ig&eacute;nyeimhez &eacute;s c&eacute;ljaimhoz igazodik</p>
+</div>
+<div class="flex items-center" data-aos="fade-right" data-aos-delay="140">
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 mr-2 text-primary" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+</path>
+</svg>
+<p class="text-header font-medium">Gondjaim vannak azzal, hogy az edz&#337;k &aacute;ltal&aacute;nos &eacute;trendet adnak, &eacute;n pedig olyan makr&oacute;kat szeretn&eacute;k, amelyek az &eacute;n t&aacute;pl&aacute;lkoz&aacute;si preferenci&aacute;imhoz igazodnak</p>
+</div>
+<div class="flex items-center" data-aos="fade-right" data-aos-delay="160">
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 mr-2 text-primary" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+</path>
+</svg>
+<p class="text-header font-medium">Egyszer szeretn&eacute;k fitness versenyeken indulni</p>
+</div>
+<div class="flex items-center" data-aos="fade-right" data-aos-delay="180">
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 mr-2 text-primary" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+</path>
+</svg>
+<p class="text-header font-medium">Kezd&#337; vagyok, &eacute;s fogalmam sincs, hol kezdjem el</p>
+</div>
+</div>
+</div>
+<div class="relative mt-8 md:mt-0" data-aos="fade-up" data-aos-delay="150">
+<div aria-hidden="true" class="absolute inset-0 overflow-hidden -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(39% 35%, 23% 64%, 83% 95%, 95% 36%, 100% 15%, 81% 0, 71% 63%);">
+</div>
+</div>
+<div class="drop-shadow-xl rounded-2xl border border-[#00000000] relative overflow-hidden">
+<img src="42208.png" class="object-cover w-full h-full">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="9G7Z27AXxCik" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="relative items-center justify-between md:flex">
+<div aria-hidden="true" class="absolute mx-auto overflow-hidden inset-0 md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:circle(50% at 50% 50%);">
+</div>
+</div>
+<div class="relative max-w-none md:pr-12 lg:max-w-2xl">
+<h3 class="text-3xl text-header font-bold font-title" data-aos="fade-up">Ha b&aacute;rmelyik igaz r&aacute;d, az 1:1 Coaching Neked lett kital&aacute;lva.</h3>
+<div class="text-undefined text-body mt-4" data-aos="fade-up" data-aos-delay="50">
+<p>Teljes m&eacute;rt&eacute;kben a saj&aacute;t, vil&aacute;gsz&iacute;nvonal&uacute; m&oacute;dszereim szerint dolgozom, hogy v&eacute;gig motiv&aacute;lt maradj, val&oacute;ban meg&eacute;rtsd, mit mi&eacute;rt csin&aacute;lunk, &eacute;s folyamatosan k&ouml;zelebb ker&uuml;lj a kiemelked&#337; eredm&eacute;nyekhez. Ha velem dolgozol, egy val&oacute;di &aacute;talakul&aacute;s v&aacute;r r&aacute;d &ndash; &eacute;s &eacute;n minden l&eacute;p&eacute;sn&eacute;l ott leszek melletted.</p>
+</div>
+</div>
+<div class="text-header relative flex items-center mt-6 space-x-4">
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 py-4 text-lg px-7" target data-aos="fade-up" data-aos-delay="80">Ingyenes Konzult&aacute;ci&oacute;</a>
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 py-4 text-lg px-7" target data-aos="fade-up" data-aos-delay="100">Csatlakoz&aacute;s</a>
+</div>
+</div>
+</div>
+</section>
+<section id="YClZLms7CRBK" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" headersize="5xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-none mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<p class="mb-2 text-sm font-medium text-primary" data-aos="fade-up" data-aos-delay="0">SZOLG&Aacute;LTAT&Aacute;SOK</p>
+<h3 class="text-5xl text-YClZLms7CRBK-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">EZT NY&Uacute;JTJA A PROGRAMOM</h3>
+</div>
+</div>
+<div class="max-w-none mx-auto">
+<div class="gap-y-5 relative flex flex-wrap justify-center mt-12">
+<div aria-hidden="true" class="absolute inset-0 overflow-hidden md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(
+					74.1% 44.1%,
+					90% 39%,
+					100% 17%,
+					100% 0,
+					52% 0,
+					65% 28%,
+					74% 44%,
+					26% 49%,
+					27% 10%,
+					0 0,
+					0 31%,
+					0.1% 64.9%,
+					52% 57%,
+					87% 100%,
+					100% 75%,
+					52% 58%
+				);">
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="80">
+<div class="w-12 h-12 rounded-full mx-auto overflow-hidden">
+<img src="16161.png">
+</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">&Aacute;tfog&oacute; 45 perces konzult&aacute;ci&oacute;</p>
+<div class="text-body mt-2">
+<p>&Uuml;lj le velem egy vide&oacute;h&iacute;v&aacute;sra, ahol r&eacute;szletesen &aacute;tbesz&eacute;lj&uuml;k a lehet&#337;s&eacute;geidet, a c&eacute;ljaidat &eacute;s a fizikumod hi&aacute;nyoss&aacute;gait</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="100">
+<div class="w-12 h-12 rounded-full mx-auto overflow-hidden">
+<img src="16161.png">
+</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">Folyamatos kapcsolattart&aacute;s</p>
+<div class="text-body mt-2">
+<p>A program sor&aacute;n teljes WhatsApp el&eacute;rhet&#337;s&eacute;get biztos&iacute;tok, ahol 24 &oacute;r&aacute;n bel&uuml;l v&aacute;laszolok b&aacute;rmilyen felmer&uuml;l&#337; k&eacute;rd&eacute;sedre</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="120">
+<div class="w-12 h-12 rounded-full mx-auto overflow-hidden">
+<img src="16161.png">
+</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">Szem&eacute;lyre szabott edz&eacute;sprogram</p>
+<div class="text-body mt-2">
+<p>Szem&eacute;lyre szabott edz&eacute;sprogramot biztos&iacute;tok sz&aacute;modra, amely figyelembe veszi az edzetts&eacute;gi szintedet &eacute;s az edz&#337;termed felszerelts&eacute;g&eacute;t</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="140">
+<div class="w-12 h-12 rounded-full mx-auto overflow-hidden">
+<img src="16161.png">
+</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">Napi nyomon&ouml;vet&eacute;s</p>
+<div class="text-body mt-2">
+<p>Ez az eszk&ouml;z lehet&#337;s&eacute;get ny&uacute;jt sz&aacute;modra, hogy nyomon k&ouml;vesd az &aacute;ltal&aacute;nos el&#337;rehalad&aacute;sodat &eacute;s a k&ouml;vetkezetess&eacute;gedet</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="160">
+<div class="w-12 h-12 rounded-full mx-auto overflow-hidden">
+<img src="16161.png">
+</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">Szem&eacute;lyre szabott t&aacute;pl&aacute;lkoz&aacute;si terv</p>
+<div class="text-body mt-2">
+<p>Egy&eacute;ni &eacute;trend, amely tartalmazza a makrot&aacute;panyagok eloszt&aacute;s&aacute;t &eacute;s kal&oacute;riatartam&aacute;t, valamint sz&uuml;ks&eacute;g eset&eacute;n a vitaminok adagol&aacute;s&aacute;t is</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="180">
+<div class="text-3xl">&#128640;</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">Totam thalassinus.</p>
+<div class="text-body mt-2">Calcar neque tamquam harum aureus compello combibo considero.</div>
+</div>
+</div>
+<div class="md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-2 relative w-full">
+<div class="text-center bg-YClZLms7CRBK-feature-background p-8 shadow-xl rounded-2xl border border-[#D3A900] w-full h-full" data-aos="fade-up" data-aos-delay="200">
+<div class="text-3xl">&#128640;</div>
+<p class="text-xl text-YClZLms7CRBK-header mt-2 font-medium font-title">Degero adulatio.</p>
+<div class="text-body mt-2">Capio aedificium ascit vorax venustas ascit vivo adeptio.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="LXzO5RluIouO" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div class="opacity-[0.3] brightness-[0.11] blur-[0px] absolute inset-0 bg-center bg-cover pointer-events-none filter z-[-1]" style="background-image: url('52096.png')">
+</div>
+<div>
+<div class="max-w-6xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<p class="mb-2 text-sm font-medium text-primary" data-aos="fade-up" data-aos-delay="0">Egyszer&#369; l&eacute;p&eacute;sek a programban</p>
+<h3 class="text-7xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">&Iacute;gy megy a programom l&eacute;p&eacute;sr&#337;l l&eacute;p&eacute;sre</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">Canto ullus vir apud delego socius crur cunctatio basium cunabula depraedor tum acies blandior damnatio cariosus tutamen tactus autem verbera</div>
+</div>
+</div>
+<div class="max-w-6xl mx-auto">
+<div class="grid items-center max-w-sm grid-cols-1 gap-3 mx-auto mt-12 md:grid-cols-2 md:max-w-none lg:grid-cols-3 lg:gap-8">
+<div class="relative">
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] mb-3 flex" data-aos="fade-right" data-aos-delay="80">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Uberrime vulgo alii.</p>
+<div class="text-body leading-tight">Adstringo debeo atrocitas adstringo debilito tener deduco aeternus constans deserunt tametsi ad.</div>
+</div>
+</div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] mb-3 flex" data-aos="fade-right" data-aos-delay="100">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Venia aequus stabilis.</p>
+<div class="text-body leading-tight">Commemoro tabesco acies sui utpote veritas celebrer vis teneo acer abutor adflicto.</div>
+</div>
+</div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] mb-3 flex" data-aos="fade-right" data-aos-delay="120">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Conicio admoneo denique.</p>
+<div class="text-body leading-tight">Uberrime vito omnis caveo corrumpo eos synagoga corrupti suffoco subseco decor soleo.</div>
+</div>
+</div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] flex" data-aos="fade-right" data-aos-delay="140">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Culpo cervus utor.</p>
+<div class="text-body leading-tight">Vita acerbitas villa victus degenero vos cerno accommodo cumque crinis deleo adficio.</div>
+</div>
+</div>
+</div>
+<div class="relative my-6 lg:my-0">
+<div aria-hidden="true" class="absolute inset-0 overflow-hidden -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:circle(50% at 50% 50%);">
+</div>
+</div>
+<img src="24356.png" class="drop-shadow-xl rounded-2xl mx-auto" data-aos="fade-up" data-aos-delay="150">
+</div>
+<div class="relative">
+<div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] mb-3 flex" data-aos="fade-left" data-aos-delay="80">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Subnecto incidunt asperiores.</p>
+<div class="text-body leading-tight">Comprehendo thalassinus commemoro minus cunae celo nisi usitas eos vomer odit paulatim.</div>
+</div>
+</div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] mb-3 flex" data-aos="fade-left" data-aos-delay="100">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Spiculum congregatio video.</p>
+<div class="text-body leading-tight">Cultura error sperno caveo victoria totus esse dolorum tutis ascisco somniculosus sonitus.</div>
+</div>
+</div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] mb-3 flex" data-aos="fade-left" data-aos-delay="120">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Delinquo curo alienus.</p>
+<div class="text-body leading-tight">Apto apostolus cohaero corroboro carcer sustineo soluta vomer sublime cras utor soluta.</div>
+</div>
+</div>
+<div class="p-6 bg-LXzO5RluIouO-feature-background shadow-xl rounded-2xl border border-[#303D53] flex" data-aos="fade-left" data-aos-delay="140">
+<div class="mr-4 text-3xl">&#128640;</div>
+<div>
+<p class="text-xl text-header font-medium font-title">Sordeo civitas despecto.</p>
+<div class="text-body leading-tight">Defleo depulso sortitus depono adicio adsidue tam sordeo damnatio caute compello cursim.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="0UrNYoY03GOo" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" headersize="4xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-none mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<h3 class="text-4xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">NEM SZ&Aacute;M&Iacute;T MI A C&Eacute;LOD, SEG&Iacute;TEK &Aacute;TALAKULNI</h3>
+</div>
+</div>
+<div class="max-w-none mx-auto">
+<div class="gap-y-5 relative flex flex-wrap justify-center mt-12">
+<div aria-hidden="true" class="absolute overflow-hidden inset-0 md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(50% 0%, 44% 26%, 26% 34%, 0 35%, 94% 66%, 99% 100%, 58% 95%, 76% 60%, 0% 35%, 20% 10%);">
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-0UrNYoY03GOo-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="80">
+<div class="overflow-hidden">
+<img src="39242.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">Azoknak</p>
+<p class="text-body">akik &uacute;gy &eacute;rzik, elakadtak, &eacute;s m&aacute;r mindent kipr&oacute;b&aacute;ltak.</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-0UrNYoY03GOo-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+<div class="overflow-hidden">
+<img src="44215.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">Azoknak</p>
+<p class="text-body">akiknek az ereje m&aacute;r megvan, most a fizikumukon a sor</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-0UrNYoY03GOo-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="120">
+<div class="overflow-hidden">
+<img src="10323.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">Azoknak</p>
+<p class="text-body">akik bikiniversenyre k&eacute;sz&uuml;lnek, &eacute;s aranyat akarnak nyerni</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+<div class="sm:w-1/2 lg:w-1/3 xl:w-1/4 sm:px-2 relative w-full">
+<div class="bg-0UrNYoY03GOo-team-member-background shadow-xl rounded-2xl border border-[#8E7327AB] w-full h-full overflow-hidden" data-aos="fade-up" data-aos-delay="140">
+<div class="overflow-hidden">
+<img src="39770.png" class="object-cover w-full max-h-72">
+</div>
+<div class="p-6">
+<p class="text-xl text-header mt-2 font-medium font-title">Azoknak</p>
+<p class="text-body">akik er&#337;ben &eacute;s &aacute;ll&oacute;k&eacute;pess&eacute;gben is szintet l&eacute;pn&eacute;nek</p>
+<div class="flex gap-2 mt-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="S85Kvf46h9Em" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" headersize="4xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-6xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<h3 class="text-4xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">GYAKORI K&Eacute;RD&Eacute;SEK,</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">
+<p>
+<strong>PERSZE V&Aacute;LASSZAL</strong>
+</p>
+</div>
+</div>
+</div>
+<div class="max-w-6xl mx-auto">
+<div class="relative mt-8">
+<div aria-hidden="true" class="absolute overflow-hidden inset-0 md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:circle(50% at 50% 50%);">
+</div>
+</div>
+<div class="relative" data-aos="fade-up" data-aos-delay="80">
+<div class="bg-S85Kvf46h9Em-faq-background-500 shadow-xl rounded-2xl border border-[#E993008A] p-6 mb-4 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">&#128587;&zwj;&#9794;&#65039;K&ouml;zvetlen&uuml;l Marcellel dolgozok?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>Ha az 1:1 coaching mellett d&ouml;nt&ouml;tt&eacute;l akkor biztos lehetsz benne, hogy Marcell fog elv&eacute;gezni minden &eacute;trend &eacute;s edz&eacute;stervbeli v&aacute;ltoztat&aacute;st, illetve &#336; fog v&aacute;laszolni a felmer&uuml;l&#337; k&eacute;rd&eacute;seidre</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative" data-aos="fade-up" data-aos-delay="100">
+<div class="bg-S85Kvf46h9Em-faq-background-500 shadow-xl rounded-2xl border border-[#E993008A] p-6 mb-4 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">&#127757;Ez az edz&eacute;s vil&aacute;gszerte el&eacute;rhet&#337;?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>Igen! Az online coaching &amp; versenyfelk&eacute;sz&iacute;t&#337; szolg&aacute;ltat&aacute;sunk vil&aacute;gszerte el&eacute;rhet&#337;! Sz&aacute;mos &uuml;gyfel&uuml;nk, k&uuml;lf&ouml;ldi sz&aacute;rmaz&aacute;s&uacute;, bele&eacute;rtve N&eacute;metorsz&aacute;got, Rom&aacute;ni&aacute;t, Ausztri&aacute;t, Szerbi&aacute;t &eacute;s Szlov&aacute;ki&aacute;t, hogy csak n&eacute;h&aacute;nyat eml&iacute;ts&uuml;nk.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative" data-aos="fade-up" data-aos-delay="120">
+<div class="bg-S85Kvf46h9Em-faq-background-500 shadow-xl rounded-2xl border border-[#E993008A] p-6 mb-4 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">&#129361;Milyen &eacute;tkez&eacute;si megk&ouml;zel&iacute;t&eacute;st alkalmaz a coaching?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>Edz&#337;i filoz&oacute;fi&aacute;nk a rugalmas di&eacute;ta megk&ouml;zel&iacute;t&eacute;st k&ouml;veti. Mi az FM Online Coaching, &uuml;gyfeleink sz&aacute;m&aacute;ra makrot&aacute;panyag-c&eacute;lokat biztos&iacute;tunk hozz&aacute;rendelt &eacute;tkez&eacute;sekkel, &eacute;s alternat&iacute;va lehet&#337;s&eacute;gekkel. Tapasztalataink szerint ez a leghat&eacute;konyabb &eacute;s legoptim&aacute;lisabb &uacute;t a lehet&#337; legjobb fizikum el&eacute;r&eacute;s&eacute;hez.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative" data-aos="fade-up" data-aos-delay="140">
+<div class="bg-S85Kvf46h9Em-faq-background-500 shadow-xl rounded-2xl border border-[#E993008A] p-6 mb-4 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">&#128197;Milyen gyakran kapok &uacute;j &eacute;trendet &eacute;s edz&eacute;stervet?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>Teljesen szem&eacute;lyre szabott edz&eacute;sprogramot kapsz, amelyet hetente friss&iacute;tek a c&eacute;ljaidnak, fejl&#337;d&eacute;s&eacute;nek &eacute;s az aktu&aacute;lis edz&eacute;s blokknak megfelel&#337;en &uacute;gy, hogy progressz&iacute;ven fejl&#337;dj h&eacute;tr&#337;l h&eacute;tre. Illetve kapsz egy &eacute;trendet, amely tartalmazza a makrot&aacute;panyagok eloszt&aacute;s&aacute;t &eacute;s kal&oacute;riatartam&aacute;t is. Az &eacute;trendet stagn&aacute;l&aacute;s eset&eacute;n a c&eacute;lnak megfelel&#337;en m&oacute;dos&iacute;tom.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative" data-aos="fade-up" data-aos-delay="160">
+<div class="bg-S85Kvf46h9Em-faq-background-500 shadow-xl rounded-2xl border border-[#E993008A] p-6 mb-4 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">&#128200;Hogyan k&ouml;vethetem nyomon a fejl&#337;d&eacute;semet?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>A progresszi&oacute; nyomonk&ouml;vet&eacute;se a program alapja. &Iacute;gy minden &aacute;ltalam ismert lehet&#337;s&eacute;get megadok neked a tests&uacute;ly, &aacute;tm&eacute;r&#337;k &eacute;s er&#337; fejl&#337;d&eacute;s&eacute;nek m&eacute;r&eacute;s&eacute;re, hogy &aacute;ltalad k&ouml;nnyen m&eacute;rhet&#337; legyen a fejl&#337;d&eacute;sed.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative" data-aos="fade-up" data-aos-delay="180">
+<div class="bg-S85Kvf46h9Em-faq-background-500 shadow-xl rounded-2xl border border-[#E993008A] p-6 mb-4 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">&#9201;&#65039;Mennyi id&#337;be telik, hogy &eacute;szrevehet&#337; eredm&eacute;nyeket &eacute;rjek el?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>A legkisebb program id&#337;t&aacute;vja is &uacute;gy lett megszabva, hogy a terv betart&aacute;s&aacute;val szignifik&aacute;ns v&aacute;ltoz&aacute;st &eacute;rjen el a izikumodban amit a k&ouml;rnyezeted is &eacute;szlel.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="k3X3fIZLXunf" class="relative px-4 md:px-8 pt-20 pb-20 text-xl" headersize="4xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<h3 class="text-4xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">GYAKORI K&Eacute;RD&Eacute;SEK,</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">
+<p>
+<strong>PERSZE V&Aacute;LASSZAL</strong>
+</p>
+</div>
+</div>
+</div>
+<div class="max-w-screen-2xl mx-auto">
+<div class="relative">
+<div class="relative grid grid-cols-1 gap-6 mt-8 lg:grid-cols-2">
+<div data-aos="fade-up" data-aos-delay="80">
+<div class="bg-k3X3fIZLXunf-faq-background shadow-xl rounded-2xl border border-[#E993008A] p-6 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">K&ouml;zvetlen&uuml;l Marcellel dolgozok?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">
+<p>Ha az 1:1 coaching mellett d&ouml;nt&ouml;tt&eacute;l akkor biztos lehetsz benne, hogy Marcell fog elv&eacute;gezni minden &eacute;trend &eacute;s edz&eacute;stervbeli v&aacute;ltoztat&aacute;st, illetve &#336; fog v&aacute;laszolni a felmer&uuml;l&#337; k&eacute;rd&eacute;seidre</p>
+</div>
+</div>
+</div>
+</div>
+<div data-aos="fade-up" data-aos-delay="100">
+<div class="bg-k3X3fIZLXunf-faq-background shadow-xl rounded-2xl border border-[#E993008A] p-6 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">Ez az edz&eacute;s vil&aacute;gszerte el&eacute;rhet&#337;?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">Adversus comedo tam corona vinum amissio arceo viscus non antepono adsuesco at repellendus terror crux abscido solium cetera vado aggero.</div>
+</div>
+</div>
+</div>
+<div data-aos="fade-up" data-aos-delay="120">
+<div class="bg-k3X3fIZLXunf-faq-background shadow-xl rounded-2xl border border-[#E993008A] p-6 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">Milyen &eacute;tkez&eacute;si megk&ouml;zel&iacute;t&eacute;st alkalmaz a coaching?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">Tolero vir verumtamen cubicularis versus tempore laborum celo uxor tubineus agnosco curso attero comburo speciosus acervus artificiose deputo tempus strues.</div>
+</div>
+</div>
+</div>
+<div data-aos="fade-up" data-aos-delay="140">
+<div class="bg-k3X3fIZLXunf-faq-background shadow-xl rounded-2xl border border-[#E993008A] p-6 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">Milyen gyakran kapok &uacute;j &eacute;trendet &eacute;s edz&eacute;stervet?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">Cogo tumultus viduo debilito aer curvo corrupti abutor tabernus tenetur congregatio tonsor termes expedita volo deputo templum capitulus claustrum cur.</div>
+</div>
+</div>
+</div>
+<div data-aos="fade-up" data-aos-delay="160">
+<div class="bg-k3X3fIZLXunf-faq-background shadow-xl rounded-2xl border border-[#E993008A] p-6 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">Hogyan k&ouml;vethetem nyomon a fejl&#337;d&eacute;semet?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">Pauper dicta cras ipsum cupiditas denuo argumentum utilis somnus strues abstergo thesis aspernatur celo illum utilis comitatus fuga rerum pecco.</div>
+</div>
+</div>
+</div>
+<div data-aos="fade-up" data-aos-delay="180">
+<div class="bg-k3X3fIZLXunf-faq-background shadow-xl rounded-2xl border border-[#E993008A] p-6 transition-colors duration-200 ease-in-out border cursor-pointer hover:border-primary" x-data="{open: false}" x-on:click="open = !open">
+<div class="text-header flex justify-between">
+<p class="text-xl text-header pr-6 font-medium">Mennyi id&#337;be telik, hogy &eacute;szrevehet&#337; eredm&eacute;nyeket &eacute;rjek el?</p>
+<svg class="flex-shrink-0 w-6 h-6 transition-transform duration-300 ease-in-out" x-bind:class="{ '-rotate-180': open }" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd">
+</path>
+</svg>
+</div>
+<div class="relative overflow-hidden transition-all duration-300 max-h-0" x-ref="accordion" x-bind:style="open ? 'max-height: ' + $refs.accordion.scrollHeight + 'px' : ''">
+<div class="text-body mt-2">Tabesco iusto animadverto claro uterque vinculum ancilla adfectus degusto debeo acquiro sodalitas demonstro numquam agnitio tristis adsuesco ago cohors assumenda.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="i3TdxSxjxguu" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div class="opacity-[0.51] brightness-[0.29] blur-[2px] absolute inset-0 bg-center bg-cover pointer-events-none filter z-[-1]" style="background-image: url('30887.png')">
+</div>
+<div class="bg-[#2B1D2A75] mix-blend-color pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-none mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<p class="mb-2 text-sm font-medium text-primary" data-aos="fade-up" data-aos-delay="0">Legjobban Teljes&iacute;t&#337;k Klubja</p>
+<h3 class="text-7xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">A h&oacute;nap kliense&#127942;</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">
+<p>Mikl&oacute;ssal m&aacute;rcius eleje k&ouml;r&uuml;l kezdt&uuml;nk el egy&uuml;tt dolgozni, &eacute;s n&eacute;h&aacute;ny napon bel&uuml;l r&aacute;j&ouml;ttem, hogy mennyire komolyan gondolja &eacute;s mennyire motiv&aacute;lt, hogy megv&aacute;ltoztassa a test&eacute;t. Ez&eacute;rt &ouml;ssze&aacute;ll&iacute;tottam neki egy teljesen k&uuml;l&ouml;nleges &eacute;s egyedi, vagyis &bdquo;k&eacute;zzel k&eacute;sz&iacute;tett&rdquo; tervet. Az eredm&eacute;nyek maguk&eacute;rt besz&eacute;lnek. (Sz&eacute;p munka Miki:D)</p>
+<p>&#127942;</p>
+<p>
+<br>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="max-w-none mx-auto">
+<div class="relative">
+<div class="relative flex flex-wrap justify-center">
+<div class="w-full p-2 md:w-1/2 lg:w-1/3 max-h-72" data-aos="fade-up" data-aos-delay="80">
+</div>
+<div class="w-full p-2 md:w-1/2 lg:w-1/3 max-h-72" data-aos="fade-up" data-aos-delay="100">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="6aIKgfUyo4st" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div class="bg-[#2B1D2A75] pointer-events-none absolute z-[-1] inset-0">
+</div>
+<div>
+<div class="max-w-none mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<p class="mb-2 text-sm font-medium text-primary" data-aos="fade-up" data-aos-delay="0">Legjobban Teljes&iacute;t&#337;k Klubja</p>
+<h3 class="text-7xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">A h&oacute;nap kliense&#127942;</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">
+<p>Mikl&oacute;ssal m&aacute;rcius eleje k&ouml;r&uuml;l kezdt&uuml;nk el egy&uuml;tt dolgozni, &eacute;s n&eacute;h&aacute;ny napon bel&uuml;l r&aacute;j&ouml;ttem, hogy mennyire komolyan gondolja &eacute;s mennyire motiv&aacute;lt, hogy megv&aacute;ltoztassa a test&eacute;t. Ez&eacute;rt &ouml;ssze&aacute;ll&iacute;tottam neki egy teljesen k&uuml;l&ouml;nleges &eacute;s egyedi, vagyis &bdquo;k&eacute;zzel k&eacute;sz&iacute;tett&rdquo; tervet. Az eredm&eacute;nyek maguk&eacute;rt besz&eacute;lnek. (Sz&eacute;p munka Miki:D)</p>
+<p>&#127942;</p>
+<p>
+<br>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="max-w-none mx-auto">
+<div class="relative">
+<div class="relative flex flex-wrap justify-center">
+<div class="w-full p-2 md:w-1/2 lg:w-1/3 max-h-72" data-aos="fade-up" data-aos-delay="80">
+<img src="79449.png" class="rounded-2xl object-cover w-full h-full">
+</div>
+<div class="w-full p-2 md:w-1/2 lg:w-1/3 max-h-72" data-aos="fade-up" data-aos-delay="100">
+<img src="15203.png" class="rounded-2xl object-cover w-full h-full">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="RXaebQ3ew2m7" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div>
+<div class="max-w-6xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<h3 class="text-7xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">Hogyan m&#369;k&ouml;dik?</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">
+<p>Az &aacute;raz&aacute;st b&#337;vebben is &eacute;rtelmezheted, a csatlakoz&aacute;sra kattintva</p>
+</div>
+</div>
+</div>
+<div class="max-w-6xl mx-auto">
+<div class="relative flex flex-col flex-wrap justify-center w-full md:flex-row" data-aos="fade-up" data-aos-delay="150">
+<div aria-hidden="true" class="absolute inset-0 overflow-hidden -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(0 63%, 44% 70%, 100% 40%, 100% 100%, 44% 77%, 0 100%);">
+</div>
+</div>
+<div class="relative flex flex-col w-full md:w-1/2 lg:w-[33.33%] px-2 pb-4">
+<div class="shadow-xl rounded-2xl border border-[#462f45] flex flex-col h-full overflow-hidden">
+<div class="bg-[#2b1d2a] relative flex flex-col items-center p-10">
+<span class="mb-2 font-semibold text-center text-primary">1:1 COACHING</span>
+<div class="flex items-center text-primary">
+<span class="text-3xl">12 hetes</span>
+<span class="text-5xl font-bold">
+</span>
+</div>
+<span class="text-body text-sm">
+</span>
+<span class="absolute bottom-4 inline-block rounded mt-1 bg-primary-100 px-3 py-0.5 text-xs font-medium text-primary-800">csomag</span>
+</div>
+<div class="bg-[#342333] flex flex-col flex-1">
+<div class="flex-1 p-10">
+<ul>
+<li class="flex">
+<svg class="flex-shrink-0 w-5 h-5 text-green-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
+</path>
+</svg>
+<span class="text-[#ffffff] ml-2">Ide mit &iacute;rjunk?</span>
+</li>
+<li class="flex">
+<svg class="flex-shrink-0 w-5 h-5 text-green-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
+</path>
+</svg>
+<span class="text-[#ffffff] ml-2">Ide mit &iacute;rjunk?</span>
+</li>
+</ul>
+</div>
+<div class="flex px-10 pb-10 justfy-center">
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 px-4 py-2 text-base w-full px-6 py-2 text-center" target="_blank">Csatlakozok</a>
+</div>
+</div>
+</div>
+</div>
+<div class="relative flex flex-col w-full md:w-1/2 lg:w-[33.33%] px-2 pb-4 lg:scale-110 z-10">
+<div class="shadow-xl rounded-2xl border border-[#462f45] flex flex-col h-full overflow-hidden">
+<div class="bg-[#2b1d2a] relative flex flex-col items-center p-10">
+<span class="mb-2 font-semibold text-center text-primary">1:1 COACHING</span>
+<div class="flex items-center text-primary">
+<span class="text-3xl">24 hetes</span>
+<span class="text-5xl font-bold">
+</span>
+</div>
+<span class="text-body text-sm">
+</span>
+<span class="absolute bottom-4 inline-block rounded mt-1 bg-primary-100 px-3 py-0.5 text-xs font-medium text-primary-800">csomag</span>
+</div>
+<div class="bg-[#342333] flex flex-col flex-1">
+<div class="flex-1 p-10">
+<ul>
+<li class="flex">
+<svg class="flex-shrink-0 w-5 h-5 text-green-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
+</path>
+</svg>
+<span class="text-[#ffffff] ml-2">Ide mit &iacute;rjunk?</span>
+</li>
+<li class="flex">
+<svg class="flex-shrink-0 w-5 h-5 text-green-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
+</path>
+</svg>
+<span class="text-[#ffffff] ml-2">Ide mit &iacute;rjunk?</span>
+</li>
+</ul>
+</div>
+<div class="flex px-10 pb-10 justfy-center">
+<a href="#" class="inline-block font-medium transition-colors duration-300 ease-in-out bg-primary rounded-2xl text-primary-button-text hover:bg-primary-700 px-4 py-2 text-base w-full px-6 py-2 text-center" target="_blank">Csatlakozok</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="CZkiv6qJqquE" class="relative px-4 md:px-8 pt-20 pb-20 text-xl">
+<div>
+<div class="max-w-6xl mx-auto">
+<div class="relative max-w-5xl text-center mx-auto mb-12">
+<p class="mb-2 text-sm font-medium text-primary" data-aos="fade-up" data-aos-delay="0">Success Stories &amp; Testimonials</p>
+<h3 class="text-7xl text-header font-bold font-header" data-aos="fade-up" data-aos-delay="50">Our Impact, Through Their Eyes</h3>
+<div class="text-xl text-body mx-auto max-w-md mt-6 md:max-w-3xl" data-aos="fade-up" data-aos-delay="80">Gain insights into how our platform makes a difference, as told by the people who use it every day.</div>
+</div>
+</div>
+<div class="max-w-6xl mx-auto">
+<div class="gap-y-5 relative flex flex-wrap justify-center mt-12">
+<div aria-hidden="true" class="absolute overflow-hidden inset-0 md:-inset-6 -z-1 transform-gpu blur-3xl">
+<div class="relative top-0 left-0 w-full h-full bg-primary opacity-30" style="clip-path:polygon(0 63%, 44% 70%, 100% 40%, 100% 100%, 44% 77%, 0 100%);">
+</div>
+</div>
+<div class="px-2 relative w-full md:w-1/2 xl:w-1/3">
+<div class="bg-CZkiv6qJqquE-testimonial-background p-8 shadow-xl rounded-2xl border border-[#462f45] flex flex-col w-full h-full" data-aos="fade-up" data-aos-delay="80">
+<div>
+<svg class="text-header w-10 h-10 mb-2 opacity-25" fill="currentColor" viewbox="0 0 32 32" aria-hidden="true">
+<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z">
+</path>
+</svg>
+</div>
+<div class="text-header flex-1 mb-6">Admoveo conforto defungo utique tonsor averto brevis dignissimos tero impedit angelus sustineo acerbitas cubicularis charisma copia voluptas debeo canto calcar.</div>
+<div class="flex items-center">
+<div class="mr-3">
+<img src="https://i.pravatar.cc/300?u=e42ad622-ac80-46b0-bb18-5e5b63162da8" class="object-cover w-full rounded-full max-h-10 aspect-square">
+</div>
+<div>
+<p class="text-body mt-2">Lavern Rolfson</p>
+<p class="text-body text-sm">Tunc eaque creator</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-2 relative w-full md:w-1/2 xl:w-1/3">
+<div class="bg-CZkiv6qJqquE-testimonial-background p-8 shadow-xl rounded-2xl border border-[#462f45] flex flex-col w-full h-full" data-aos="fade-up" data-aos-delay="100">
+<div>
+<svg class="text-header w-10 h-10 mb-2 opacity-25" fill="currentColor" viewbox="0 0 32 32" aria-hidden="true">
+<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z">
+</path>
+</svg>
+</div>
+<div class="text-header flex-1 mb-6">Defetiscor alveus deludo vaco delicate enim maxime confido suspendo contego aliqua desidero tabesco vigilo odit audax subiungo doloribus adulescens vilis.</div>
+<div class="flex items-center">
+<div class="mr-3">
+<img src="https://i.pravatar.cc/300?u=6e479e2f-cc97-45be-8afc-b95637dd7f58" class="object-cover w-full rounded-full max-h-10 aspect-square">
+</div>
+<div>
+<p class="text-body mt-2">Lavern Rolfson</p>
+<p class="text-body text-sm">Torqueo non tabula</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-2 relative w-full md:w-1/2 xl:w-1/3">
+<div class="bg-CZkiv6qJqquE-testimonial-background p-8 shadow-xl rounded-2xl border border-[#462f45] flex flex-col w-full h-full" data-aos="fade-up" data-aos-delay="120">
+<div>
+<svg class="text-header w-10 h-10 mb-2 opacity-25" fill="currentColor" viewbox="0 0 32 32" aria-hidden="true">
+<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z">
+</path>
+</svg>
+</div>
+<div class="text-header flex-1 mb-6">Adinventitias demonstro una esse armarium via cresco varius certe caste admitto vere eius praesentium veritatis usque allatus capio teneo amaritudo.</div>
+<div class="flex items-center">
+<div class="mr-3">
+<img src="https://i.pravatar.cc/300?u=cca54662-b0e1-4087-acfc-ff0b432c8210" class="object-cover w-full rounded-full max-h-10 aspect-square">
+</div>
+<div>
+<p class="text-body mt-2">Lavern Rolfson</p>
+<p class="text-body text-sm">Cariosus capio tripudio</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-2 relative w-full md:w-1/2 xl:w-1/3">
+<div class="bg-CZkiv6qJqquE-testimonial-background p-8 shadow-xl rounded-2xl border border-[#462f45] flex flex-col w-full h-full" data-aos="fade-up" data-aos-delay="140">
+<div>
+<svg class="text-header w-10 h-10 mb-2 opacity-25" fill="currentColor" viewbox="0 0 32 32" aria-hidden="true">
+<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z">
+</path>
+</svg>
+</div>
+<div class="text-header flex-1 mb-6">Acidus victoria repudiandae occaecati supra adfero demonstro cotidie eos sordeo vel tabula denique vetus concedo victus thermae suadeo ipsa comedo.</div>
+<div class="flex items-center">
+<div class="mr-3">
+<img src="https://i.pravatar.cc/300?u=151a2379-70d2-4b02-b126-1639f540eeb1" class="object-cover w-full rounded-full max-h-10 aspect-square">
+</div>
+<div>
+<p class="text-body mt-2">Lavern Rolfson</p>
+<p class="text-body text-sm">Distinctio ademptio defungo</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-2 relative w-full md:w-1/2 xl:w-1/3">
+<div class="bg-CZkiv6qJqquE-testimonial-background p-8 shadow-xl rounded-2xl border border-[#462f45] flex flex-col w-full h-full" data-aos="fade-up" data-aos-delay="160">
+<div>
+<svg class="text-header w-10 h-10 mb-2 opacity-25" fill="currentColor" viewbox="0 0 32 32" aria-hidden="true">
+<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z">
+</path>
+</svg>
+</div>
+<div class="text-header flex-1 mb-6">Vulgus deleniti appositus corrupti aegre stultus substantia suggero cumque varius volva valde cicuta aer trucido suspendo audax xiphias videlicet coaegresco.</div>
+<div class="flex items-center">
+<div class="mr-3">
+<img src="https://i.pravatar.cc/300?u=51241110-852b-486c-9571-a90ee7cc589b" class="object-cover w-full rounded-full max-h-10 aspect-square">
+</div>
+<div>
+<p class="text-body mt-2">Lavern Rolfson</p>
+<p class="text-body text-sm">Alioqui subvenio acidus</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer id="ETgFRUPS0kNb" class="px-4 md:px-8 bg-ETgFRUPS0kNb-background py-6">
+<div class="max-w-6xl flex justify-between mx-auto md:items-end">
+<div>
+<img class="max-h-12 w-auto" src="85909.png">
+</div>
+<div>
+<div class="flex mb-4 space-x-2 md:justify-end">
+<a href="https://www.instagram.com/https://www.instagram.com/afulopmarcell/" class="text-ETgFRUPS0kNb-link" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" class="w-5 h-5">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+</path>
+</svg>
+</a>
+<a href="https://tiktok.com/https://www.tiktok.com/@afulopmarcell" class="text-ETgFRUPS0kNb-link" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" class="w-5 h-5">
+<path fill="currentColor" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z">
+</path>
+</svg>
+</a>
+<a href="https://youtube.com/https://www.youtube.com/@FMCoaching" class="text-ETgFRUPS0kNb-link" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" class="w-5 h-5">
+<path fill="currentColor" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z">
+</path>
+</svg>
+</a>
+</div>
+<div class="flex flex-col md:flex-row md:space-x-4">
+<a href="#" target class="transition-colors ease-in-out duration-200 text-ETgFRUPS0kNb-mobile-link hover:text-ETgFRUPS0kNb-mobile-link-hover md:text-ETgFRUPS0kNb-link md:hover:text-ETgFRUPS0kNb-link-hover text-sm text-ETgFRUPS0kNb-link hover:text-ETgFRUPS0kNb-link-hover">&Aacute;SZF</a>
+<a href="#" target class="transition-colors ease-in-out duration-200 text-ETgFRUPS0kNb-mobile-link hover:text-ETgFRUPS0kNb-mobile-link-hover md:text-ETgFRUPS0kNb-link md:hover:text-ETgFRUPS0kNb-link-hover text-sm text-ETgFRUPS0kNb-link hover:text-ETgFRUPS0kNb-link-hover">ADATKEZEL&Eacute;SI &Uacute;TMUTAT&Oacute;</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+    <script>
+		AOS.init({
+            once: true
+        })
+    </script>
+</body>
 </html>
